@@ -46,4 +46,4 @@ The Spengel Museum Hannover will be used as the example museum. See the museum d
   - How to get images on a map - https://commons.wikimedia.org/wiki/File:Sprengel_Museum_Hannover_entrance_Kurt-Schwitters-Platz_Suedstadt_Hannover_Germany_02.jpg 
 https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315
   - How to make timelines
-  - How to make an organisations data Dashboard to cataloue from Wikidata
+  - How to make an organisations data Dashboard to catalogue from Wikidata
