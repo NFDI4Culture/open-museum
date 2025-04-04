@@ -2,6 +2,8 @@
 
 CPS Prototype - citizen science museum guide
 
+![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
+
 ## About
 
 A prototype project being made with the students of the Data Science course of Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
