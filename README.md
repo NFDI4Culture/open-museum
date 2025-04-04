@@ -8,7 +8,7 @@ CPS Prototype - citizen science museum guide
 
 A prototype project being made with the students of the Data Science course of Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
 
-The project is to create a system where museum visitors create their own guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.
+The project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.
 
 As a basis for the prototype the Computational Publishing Service demo is being uused. See: [CPS Demo #2](https://nfdi4culture.github.io/cps-demo-2/)
 
