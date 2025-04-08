@@ -1,6 +1,6 @@
-# Citizen Science Museum Guide
+# Citizen Science Museum Guidebook
 
-CPS Prototype - citizen science museum guide
+Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebook
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
