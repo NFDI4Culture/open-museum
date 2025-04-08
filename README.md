@@ -4,6 +4,8 @@ Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebo
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
+The prototype is inspired by this Wikicommons function of searching nearby images on a map. https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315
+
 ## About
 
 A prototype project being made with the students of the Data Science course of Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
@@ -43,7 +45,9 @@ The Spengel Museum Hannover will be used as the example museum. See the museum d
 
 ### Modules
 
-  - How to get images on a map - https://commons.wikimedia.org/wiki/File:Sprengel_Museum_Hannover_entrance_Kurt-Schwitters-Platz_Suedstadt_Hannover_Germany_02.jpg 
-https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315
+  - How to get images on a map - https://commons.wikimedia.org/wiki/File:Sprengel_Museum_Hannover_entrance_Kurt-Schwitters-Platz_Suedstadt_Hannover_Germany_02.jpg
+  - 
+[https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315](https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315)
+
   - How to make timelines
   - How to make an organisations data Dashboard to catalogue from Wikidata
