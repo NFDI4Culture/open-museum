@@ -10,7 +10,7 @@ A prototype project being made with the students of the Data Science course of H
 
 The project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.
 
-As a basis for the prototype the Computational Publishing Service demo is being uused. See: [CPS Demo #2](https://nfdi4culture.github.io/cps-demo-2/)
+As a basis for the prototype the Computational Publishing Service demo is being used. See: [CPS Demo #2](https://nfdi4culture.github.io/cps-demo-2/)
 
 The Spengel Museum Hannover will be used as the example museum. See the museum data profile on [Wikidata Resonator](https://reasonator.toolforge.org/?q=Q510144)
 
