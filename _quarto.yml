@@ -14,7 +14,6 @@ book:
   favicon: ./images/favicon-32x32.png
   chapters:
     - index.qmd
-    # - README.md
     - guide001.ipynb
     - guide002.ipynb
     - guide003.ipynb

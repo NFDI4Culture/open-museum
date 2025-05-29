@@ -1,4 +1,4 @@
-# Museum Guidebooks: A Citizen Science Experience
+## Museum Guidebooks: A Citizen Science Experience
 
 Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebook
 
