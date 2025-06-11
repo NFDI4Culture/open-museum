@@ -30,26 +30,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Museum Guidebooks",
-    "section": "",
-    "text": "Welcome\nText",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About text",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
     "objectID": "guide003.html#timeline",
     "href": "guide003.html#timeline",
     "title": "3  Guide: Exhibition Timeline - Sprengel Museum",
@@ -57,6 +37,66 @@
     "text": "Make this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n      \n      \n      \n  \n  1\n  File:Room With Wood Statue Inside Sprengel Museum Hannover.jpgRoom With Wood Statue Inside Sprengel Museum Hannover\nRoom with a wooden statue located inside the Sprengel Museum Hannover \n  52.362953, 9.740115",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guide: Exhibition Timeline - Sprengel Museum</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Museum Guidebooks",
+    "section": "",
+    "text": "Welcome: Open Museum Guide\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n–\nInspired by the 1800s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de",
+    "crumbs": [
+      "Welcome: Open Museum Guide"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Wikibase - Making a Guide\nThis is a workflow to create a museum guide based on an Linked Open Data utilising Wikidata, Wikimedia Commons, Wikibase, and Wikipedia.\nThe guide and its items are stored in a Wikibase instance. Most of the data used in the items are pulled from Wikimedia Commons. If Wikidata entries exist, they will be linked to the items.\nThe goal is to make existing data usuable for the museum and the generated information accessible to the public.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#foundational-assumptions-ideal-world-vision",
+    "href": "about.html#foundational-assumptions-ideal-world-vision",
+    "title": "About",
+    "section": "Foundational Assumptions / Ideal World Vision",
+    "text": "Foundational Assumptions / Ideal World Vision\nThe Open Museum (Idea World Vision)\n\nAll artwork from exhibitions, architecture, and public art is databased with pictures and geolocation on Wikimedia Commons\nSome items have Wikidata and Wikipedia entries\nA calendar of a museums exhibitions exists in Wikidata",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#guide-data-model",
+    "href": "about.html#guide-data-model",
+    "title": "About",
+    "section": "Guide data model",
+    "text": "Guide data model\nOur example guide has 9 items. Because 9 is a magic number!\n(= has 9 Guide items)\n\nThe Guide\n\nTitle / ID (mandatory)\nAuthors\nCreation date\nDescription\nList of guide items (mandatory)\nLocation\nCategory (from Wikimedia Commons?)\n\n\n\n\n\n\n\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nSprengel Guide or Q001\nText\nmandatory. can be a Q-number\n\n\nAuthor\nErika Mustermann\nString, or maybe Item if we have user accounts\noptional, repeatable.\n\n\nCreation Date\n2025-04-07\nPoint in Time\noptional\n\n\nDescription\nGuide to the public art around Sprengel museum.\nString\noptional\n\n\nGuide Item\nAnother Twister\nItem\nmandatory, repeatable. for 9 items we need 9 of these entries\n\n\nLocation\nHanover\nString\noptional\n\n\nCategory\nImages of Sculptures\nString\noptional",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#guide-item",
+    "href": "about.html#guide-item",
+    "title": "About",
+    "section": "Guide Item",
+    "text": "Guide Item\n(= part of Guide object)\n\nTitle\nPicture\nGeolocation / coordinates\nDescription\nWikidata ID (if available)\n\n→ ideally, all this info can be taken from Wikimedia Commons\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nAnother Twister or Q20\nString\n\n\n\nPicture\nAnother_Twister.jpg\nCommons media file\nautomatically searches the File: namespace on Commons\n\n\nGeolocation\n52.363442, 9.739542\nGeographic coordinates\n\n\n\nDescription\nSculpture by Alice Aycock\nString\n\n\n\nWikidata ID\nQ523722 (transforms to https://www.wikidata.org/wiki/Q523722)\nExternal identifier\ncan be used to get additional information, such as links to Wikipedia. the property has to be set up with a formatter URL",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#possible-additions",
+    "href": "about.html#possible-additions",
+    "title": "About",
+    "section": "Possible Additions",
+    "text": "Possible Additions\n\nTimeline\n→ for an overview of architecture\n→ take one building (Sprengel museum) and document when its individual buildings were added",
+    "crumbs": [
+      "About"
     ]
   }
 ]

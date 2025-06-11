@@ -1,10 +1,61 @@
-## Museum Guidebooks: A Citizen Science Experiment
+## Open Museum Guidebooks: A Citizen Science Experience
 
-Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebooks
+Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
-The prototype is inspired by this Wikicommons function of searching nearby images on a map. https://wikimap.toolforge.org/?wp=false&cluster=false&zoom=16&lat=052.363410&lon=0009.739315
+Inspired by the 1800s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
+
+The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
+
+Welcome to 'Open Museum'! If museums made deposits of open data of what's on show - then their visitors could make 'play lists' of their favourite works and share them online.
+
+The 'Open Museum' pitch is that the public take part in this cataloguing and a Citizen Science Experience.
+
+The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 'how to' model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).
+
+1. Use case
+
+  - A museum visitor makes a list of items that are significant to them and they want to share. The list shows the item on a map and as a table, with links to more information and data.
+  - A person finds the list online and make a visit to the museum.
+  - The public catalogues exhibition dates and information on Wikidata. The public catalogues items on display in an exhibition.
+
+2. Value proposition
+
+  - The public can learn about chosen topics using museums.
+  - The public can learn data science skills.
+  - Museums can attract more visitors.
+  - Museums can support deep learning in their respective knowledge domains.
+  - A permanent record of museums work will be created.
+
+3. Persona and storyboard (needs / blocking)
+
+  - Musuem visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.
+  - Musuem exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.
+  - Special interest group (Climate change education group): Need: Ensure access understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.
+
+4. Problem / solution
+
+Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don't publish this data.
+
+Solution: Support museums visitors to publish and use the data as a citizen science project 'Open Musuem'. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.
+
+5. A schematic
+
+<pre>
++--------------------+            +---------------------+             +-------------------+
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
+|    Data            +------------>       The public    +------------>|     Learning      |
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
+|                    |            |                     |             |                   |
++--------------------+            +---------------------+             +-------------------+
+</pre>
+
 
 ## About
 

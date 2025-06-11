@@ -19,7 +19,7 @@ book:
     - guide003.ipynb
     - about.qmd
   cover-image: WikiMap-04-04-2025_05_12_PM.jpg
-  repo-url: https://github.com/NFDI4Culture/museum-guidebooks
+  repo-url: https://github.com/NFDI4Culture/open-museum
   repo-actions: [issue]  
   downloads: [pdf,docx]  
   sidebar: 
