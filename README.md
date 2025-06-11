@@ -4,7 +4,7 @@ Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen scien
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
-Inspired by the 1800s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
+Project inspired by the 1700s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
 
 The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
 
@@ -28,17 +28,17 @@ The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 
   - Museums can support deep learning in their respective knowledge domains.
   - A permanent record of museums work will be created.
 
-3. Persona and storyboard (needs / blocking)
+3. Persona and storyboard (user needs / what is blocking the user)
 
   - Musuem visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.
   - Musuem exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.
-  - Special interest group (Climate change education group): Need: Ensure access understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.
+  - Special interest group (Climate change education group): Need: Ensure access to understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.
 
 4. Problem / solution
 
-Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don't publish this data.
+  - Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don't publish this data.
 
-Solution: Support museums visitors to publish and use the data as a citizen science project 'Open Musuem'. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.
+  - Solution: Support museums visitors to publish and use the data as a citizen science project 'Open Musuem'. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.
 
 5. A schematic
 
@@ -55,7 +55,6 @@ Solution: Support museums visitors to publish and use the data as a citizen scie
 |                    |            |                     |             |                   |
 +--------------------+            +---------------------+             +-------------------+
 </pre>
-
 
 ## About
 
