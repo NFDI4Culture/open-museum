@@ -1,6 +1,6 @@
 ## Museum Guidebooks: A Citizen Science Experiment
 
-Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebook
+Computational Publishing Sevice (CPS) Prototype - Citizen science museum guidebooks
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
