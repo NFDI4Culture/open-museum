@@ -1,4 +1,4 @@
-# Welcome: Open Museum Guide {.unnumbered}
+# Welcome {.unnumbered}
 
 The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
 
