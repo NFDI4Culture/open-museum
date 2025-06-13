@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Museum Guidebooks",
+    "section": "",
+    "text": "Welcome\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n–\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
     "objectID": "guide001.html",
     "href": "guide001.html",
     "title": "1  Guide: Public Art - Sprengel Museum",
@@ -30,21 +40,11 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Open Museum Guidebooks",
-    "section": "",
-    "text": "Welcome\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n–\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Wikibase - Making a Guide\nThis is a workflow to create a museum guide based on an Linked Open Data utilising Wikidata, Wikimedia Commons, Wikibase, and Wikipedia.\nThe guide and its items are stored in a Wikibase instance. Most of the data used in the items are pulled from Wikimedia Commons. If Wikidata entries exist, they will be linked to the items.\nThe goal is to make existing data usuable for the museum and the generated information accessible to the public.",
+    "text": "Wikibase - Making a Guide\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de\nProblem: A museum visitor cannot share information about exhibitions or the exhited items as museums don’t publish this data.\nSolution: Support museums visitors to publish and use the data as a citizen science project ‘Open Musuem’. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.\nThis is a workflow to create a museum guide based on an Linked Open Data utilising Wikidata, Wikimedia Commons, Wikibase, and Wikipedia.\nThe guide and its items are stored in a Wikibase instance. Most of the data used in the items are pulled from Wikimedia Commons. If Wikidata entries exist, they will be linked to the items.\nThe goal is to make existing data usuable for the museum and the generated information accessible to the public.",
     "crumbs": [
       "About"
     ]
@@ -104,7 +104,7 @@
     "href": "cs.html",
     "title": "Citizen Science",
     "section": "",
-    "text": "Learning materials\nhttps://computational-publishing-service.wikibase.cloud/wiki/Transfer_Commons_Images_to_Wikibase#QuickStatements\nhttps://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine_wikimedia_commons/",
+    "text": "Learning materials\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nhttps://computational-publishing-service.wikibase.cloud/wiki/Transfer_Commons_Images_to_Wikibase#QuickStatements\nhttps://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine_wikimedia_commons/",
     "crumbs": [
       "Citizen Science"
     ]
