@@ -2,10 +2,8 @@ project:
   type: book
   output-dir: docs
 
-citation: 
-  doi: "10.5281/zenodo.15646039"
+doi: "10.5281/zenodo.15646039"
  
-
 book:
   title: "Open Museum Guidebooks"
   author: 
@@ -19,9 +17,10 @@ book:
   favicon: ./images/favicon-32x32.png
   chapters:
     - index.qmd
-    - guide001.ipynb
+    - guide000.ipynb
     - guide002.ipynb
     - guide003.ipynb
+    - guide001.ipynb
     - about.qmd
     - cs.qmd
     - data models.qmd
