@@ -14,9 +14,9 @@ book:
   favicon: ./images/favicon-32x32.png
   chapters:
     - index.qmd
-    - guide004.ipynb
-    - guide005.ipynb
-    - guide006.ipynb
+    - guide001.ipynb
+    - guide002.ipynb
+    - guide003.ipynb
     - about.qmd
     - cs.qmd
     - data models.qmd
