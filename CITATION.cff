@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Worthington"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0002-8579-9717"
+- family-names: "Rahr"
+  given-names: "Anna"
+  orcid: "https://orcid.org/0009-0008-4458-8228"
+- family-names: "Vong"
+  given-names: "Charleen"
+  orcid: "https://orcid.org/0009-0005-7898-4956"
+- family-names: "Dammeyer"
+  given-names: "Ash"
+  orcid: "https://orcid.org/0009-0003-6233-9317"  
+title: "Open Museum Guidebooks"
+version: 0.2.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15646039
+date-released: 2025-06-13
+url: "https://github.com/NFDI4Culture/open-museum"

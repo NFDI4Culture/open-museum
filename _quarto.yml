@@ -2,6 +2,10 @@ project:
   type: book
   output-dir: docs
 
+citation: 
+  doi: "10.5281/zenodo.15646039"
+ 
+
 book:
   title: "Open Museum Guidebooks"
   author: 
@@ -11,6 +15,7 @@ book:
         - "Open Science Lab, TIB"
         - "NFDI4Culture"
   date: today
+  
   favicon: ./images/favicon-32x32.png
   chapters:
     - index.qmd
