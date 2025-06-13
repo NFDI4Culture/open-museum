@@ -1,0 +1,11 @@
+# requirements file for Python libraries
+# install with 'pip install -r requirements.txt'
+# https://note.nkmk.me/en/python-pip-install-requirements/
+
+SPARQLWrapper
+python-benedict
+ipypublish
+markdownify
+sparql_dataframe
+pillow
+folium
