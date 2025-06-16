@@ -1,0 +1,54 @@
+# Data Models {.unnumbered}
+
+## A Guidebook list 
+
+- **Title / ID (mandatory)**
+- Authors
+- Creation date
+- Description
+- **List of guide items (mandatory)**
+- Location
+- Category (from Wikimedia Commons?)
+
+| Label         | Example Value                                   | Datatype                                       | Note                                                          |
+|---------------|-------------------------------------------------|------------------------------------------------|---------------------------------------------------------------|
+| Title         | *Sprengel Guide* or *Q001*                          | Text                                           | mandatory. can be a Q-number                                  |
+| Author        | *Erika Mustermann*                                | String, or maybe Item if we have user accounts | optional, repeatable.                                         |
+| Creation Date | *2025-04-07*                                      | Point in Time                                  | optional                                                      |
+| Description   | *Guide to the public art around Sprengel museum.* | String                                         | optional                                                      |
+| Guide Item    | *Another Twister*                                 | Item                                           | mandatory, repeatable. for 9 items we need 9 of these entries |
+| Location      | *Hanover*                                         | String                                         | optional                                                      |
+| Category      | *Images of Sculptures*                            | String                                         | optional                                                      |
+
+## A guidebook list item
+
+(= part of Guide object)
+
+- Title
+- Picture
+- Geolocation / coordinates
+- Description
+- Wikidata ID (if available)
+
+→ ideally, all this info can be taken from Wikimedia Commons
+
+| Label       | Example Value                                                 | Datatype               | Note                                                                                                                      |
+|-------------|---------------------------------------------------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Title       | *Another Twister* or *Q20*                                        | String                 |                                                                                                                           |
+| Picture     | *Another_Twister.jpg*                                           | Commons media file     | automatically searches the *File:* namespace on Commons                                                                     |
+| Geolocation | *52.363442, 9.739542*                                           | Geographic coordinates |                                                                                                                           |
+| Description | *Sculpture by Alice Aycock*                                     | String                 |                                                                                                                           |
+| Wikidata ID | *Q523722* (transforms to *https://www.wikidata.org/wiki/Q523722*) | External identifier    | can be used to get additional information, such as links to Wikipedia. the property has to be set up with a [formatter URL](https://www.wikidata.org/wiki/Property:P1630) |
+
+## An image map
+
+## A timeline
+
+## A publication
+
+## A publication deposit
+
+## Learning materials
+
+https://tib.eu/cloud/s/nKKnQgHgyLn66Fw#h-data-model-creation-a-step-by-step-guide
+

@@ -66,14 +66,18 @@ As a basis for the prototype the Computational Publishing Service demo is being 
 
 The Spengel Museum Hannover will be used as the example museum. See the museum data profile on [Wikidata Resonator](https://reasonator.toolforge.org/?q=Q510144)
 
+## Run Notebooks
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/)
+
 ### Project status and roadmap
 
-   1. Ideation - Current
+   1. Ideation  
    2. Wikidata and Wikibase technical setup
    3. Assign roles
    4. Technical tests
    5. Iteration
-   6. Presentation and scholarly deposit
+   6. Presentation and scholarly deposit - Current
 
 ### Tutorials
 

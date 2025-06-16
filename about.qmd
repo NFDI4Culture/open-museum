@@ -74,7 +74,7 @@ Our example guide has 9 items. Because [9](https://en.wikipedia.org/wiki/9) is a
 
 (= has 9 Guide items)
 
-### The Guide
+### A Guidebook list 
 
 - **Title / ID (mandatory)**
 - Authors
@@ -94,7 +94,7 @@ Our example guide has 9 items. Because [9](https://en.wikipedia.org/wiki/9) is a
 | Location      | *Hanover*                                         | String                                         | optional                                                      |
 | Category      | *Images of Sculptures*                            | String                                         | optional                                                      |
 
-## Guide Item
+## A Guide Item
 
 (= part of Guide object)
 
@@ -121,3 +121,7 @@ Our example guide has 9 items. Because [9](https://en.wikipedia.org/wiki/9) is a
 → for an overview of architecture
 
 → take one building (Sprengel museum) and document when its individual buildings were added
+
+## Related work
+
+https://calnfynn.github.io/KarteHannover/ 

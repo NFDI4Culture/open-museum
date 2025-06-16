@@ -2,12 +2,10 @@ project:
   type: book
   output-dir: docs
 
-doi: "10.23915/reprodocs.00010"
-
-
-
+doi: "10.5281/zenodo.15646039"
+ 
 book:
-  title: "Museum Guidebooks"
+  title: "Open Museum Guidebooks"
   author: 
     name: "Team Data Science, HsH"
     affiliations: 
@@ -15,17 +13,20 @@ book:
         - "Open Science Lab, TIB"
         - "NFDI4Culture"
   date: today
+  
   favicon: ./images/favicon-32x32.png
   chapters:
     - index.qmd
-    - guide001.ipynb
+    - guide000.ipynb
     - guide002.ipynb
     - guide003.ipynb
+    - guide001.ipynb
     - about.qmd
     - cs.qmd
+    - data models.qmd
   cover-image: WikiMap-04-04-2025_05_12_PM.jpg
   repo-url: https://github.com/NFDI4Culture/open-museum
-  repo-actions: [issue]  
+  repo-actions: [source]  
   downloads: [pdf,docx]  
   sidebar: 
    logo: WikiMap-04-04-2025_05_12_PM.jpg

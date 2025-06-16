@@ -1,22 +1,12 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Museum Guidebooks",
+    "objectID": "guide000.html",
+    "href": "guide000.html",
+    "title": "1  Guide: Architecture Timeline - Sprengel Museum",
     "section": "",
-    "text": "Welcome: Open Museum Guide\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n–\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de",
+    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nCreated by: User name, date\nTimeline embed:\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:Sprengel Museum Extension.jpgSprengel Museum Extension\nSprengel Museum Extension \n  52.361506, 9.740566",
     "crumbs": [
-      "Welcome: Open Museum Guide"
-    ]
-  },
-  {
-    "objectID": "guide001.html",
-    "href": "guide001.html",
-    "title": "1  Guide: Public Art - Sprengel Museum",
-    "section": "",
-    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n\n1\nFile:A back view of the Sprengel Museum Hannover.jpgA back view of the Sprengel Museum Hannover\nA artwork in the back of the Sprengel Museum Hannover \n  52.361642, 9.740875\n\n\n\n2\nFile:A corner view of the Sprengel Museum Hannover.jpgA corner view of the Sprengel Museum Hannover\nA corner view of the Sprengel Museum Hannover \n  52.362239, 9.740075\n\n\n\n\n3\nFile:Another Twister.jpgAnother Twister\nAnother Twister \n  52.363442, 9.739542\n\n\n\n\n4\nFile:Banners Outside Sprengel Museum Hannover.jpgBanners Outside Sprengel Museum Hannover\nBanners showing upcoming exhibitions outside the Sprengel Museum Hannover \n  52.362838, 9.739574\n\n\n\n5\nFile:Corridor in Sprengel Museum.jpgCorridor in Sprengel Museum\nExample of brutalist architecture \n  52.363108, 9.740197\n\n\n\n6\nFile:Entrance of the Sprengel Museum Hannover.jpgEntrance of the Sprengel Museum Hannover\nThe entrance of the Sprengel Museum Hannover \n  52.363469, 9.73925\n\n\n\n\n7\nFile:Extension Sprengel Museum Hannover 2.jpgExtension Sprengel Museum Hannover 2\nView from top of a room inside the extension of the Sprengel Museum Hannover \n  52.362418, 9.740455\n\n\n\n\n8\nFile:Extension Sprengel Museum Hannover 3.jpgExtension Sprengel Museum Hannover 3\nCorner of the extension of the Sprengel Museum Hannover \n  52.362245, 9.740103\n\n\n\n9\nFile:Extension Sprengel Museum Hannover.jpgExtension Sprengel Museum Hannover\nRoom inside the extension of the Sprengel Museum Hannover \n  52.362463, 9.740448",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide: Public Art - Sprengel Museum</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide: Architecture Timeline - Sprengel Museum</span>"
     ]
   },
   {
@@ -24,7 +14,7 @@
     "href": "guide002.html",
     "title": "2  Guide: Architecture (exterior) - Sprengel Museum",
     "section": "",
-    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nTimeline: URL link\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:A corner view of the Sprengel Museum Hannover.jpgA corner view of the Sprengel Museum Hannover\nA corner view of the Sprengel Museum Hannover \n  52.362239, 9.740075\n\n\n\n  \n  2\n  File:Entrance of the Sprengel Museum Hannover.jpgEntrance of the Sprengel Museum Hannover\nThe entrance of the Sprengel Museum Hannover \n  52.363469, 9.73925\n\n\n\n  \n  3\n  File:Extension Sprengel Museum Hannover 3.jpgExtension Sprengel Museum Hannover 3\nCorner of the extension of the Sprengel Museum Hannover \n  52.362245, 9.740103\n\n\n  \n  4\n  File:Floating Stairs Sprengel Museum Hannover.jpgFloating Stairs Sprengel Museum Hannover\nStairs leading to nowhere inside the Sprengel Museum Hannover \n  52.362655, 9.74032\n\n\n  \n  5\n  File:Kurt - Schwitters - Platz road sign.jpgKurt - Schwitters - Platz road sign\nRoad sign for Kurt - Schwitters - Platz in front of the Sprengel Museum, Hannover. \n  52.363442, 9.739542\n\n\n\n  \n  6\n  File:Sprengel Museum entrance.jpgSprengel Museum entrance\nSprengel Museum entrance \n  52.363442, 9.739542\n\n\n\n  \n  7\n  File:Sprengel Museum Extension - side view.jpgSprengel Museum Extension - side view\nSprengel Museum Extension - side view \n  52.3617, 9.741093\n\n\n\n  \n  8\n  File:Sprengel Museum Extension.jpgSprengel Museum Extension\nSprengel Museum Extension \n  52.361506, 9.740566",
+    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:A corner view of the Sprengel Museum Hannover.jpgA corner view of the Sprengel Museum Hannover\nA corner view of the Sprengel Museum Hannover \n  52.362239, 9.740075",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Guide: Architecture (exterior) - Sprengel Museum</span>"
     ]
@@ -34,9 +24,29 @@
     "href": "guide003.html",
     "title": "3  Guide: Architecture (interior) - Sprengel Museum",
     "section": "",
-    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nTimeline: URL link\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:Room With Wood Statue Inside Sprengel Museum Hannover.jpgRoom With Wood Statue Inside Sprengel Museum Hannover\nRoom with a wooden statue located inside the Sprengel Museum Hannover \n  52.362953, 9.740115\n\n\n  \n  2\n  File:Stairs on Wheels Sprengel Museum Hannover.jpgStairs on Wheels Sprengel Museum Hannover\nStairs on wheels inside the Sprengel Museum Hannover \n  52.362698, 9.740412",
+    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:Corridor in Sprengel Museum.jpgCorridor in Sprengel Museum\nExample of brutalist architecture \n  52.363108, 9.740197\n\n\n\n  \n  2\n  File:Extension Sprengel Museum Hannover 2.jpgExtension Sprengel Museum Hannover 2\nView from top of a room inside the extension of the Sprengel Museum Hannover \n  52.362418, 9.740455\n\n\n\n  \n  3\n  File:Extension Sprengel Museum Hannover.jpgExtension Sprengel Museum Hannover\nRoom inside the extension of the Sprengel Museum Hannover \n  52.362463, 9.740448\n\n\n\n  \n  4\n  File:Floating Stairs Sprengel Museum Hannover.jpgFloating Stairs Sprengel Museum Hannover\nStairs leading to nowhere inside the Sprengel Museum Hannover \n  52.362655, 9.74032\n\n\n\n  \n  5\n  File:Hallway Sprengel Museum Hannover 2.jpgHallway Sprengel Museum Hannover 2\nHallway inside the Sprengel Museum Hannover with leftover stairs on the wall \n  52.362653, 9.740046\n\n\n\n  \n  6\n  File:Hallway Sprengel Museum Hannover.jpgHallway Sprengel Museum Hannover\nHallway inside the Sprengel Museum Hannover \n  52.362953, 9.740115\n\n\n\n  \n  7\n  File:Room With Wood Statue Inside Sprengel Museum Hannover.jpgRoom With Wood Statue Inside Sprengel Museum Hannover\nRoom with a wooden statue located inside the Sprengel Museum Hannover \n  52.362953, 9.740115\n\n\n\n  \n  8\n  File:Stairs on Wheels Sprengel Museum Hannover.jpgStairs on Wheels Sprengel Museum Hannover\nStairs on wheels inside the Sprengel Museum Hannover \n  52.362698, 9.740412",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guide: Architecture (interior) - Sprengel Museum</span>"
+    ]
+  },
+  {
+    "objectID": "guide001.html",
+    "href": "guide001.html",
+    "title": "4  Guide: Public Art - Sprengel Museum",
+    "section": "",
+    "text": "Description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nCreated by: User name, date\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n  \n  1\n  File:Another Twister.jpgAnother Twister\nAnother Twister \n  52.363442, 9.739542",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Guide: Public Art - Sprengel Museum</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Museum Guidebooks",
+    "section": "",
+    "text": "Welcome\nThe idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n–\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de",
+    "crumbs": [
+      "Welcome"
     ]
   },
   {
@@ -64,17 +74,17 @@
     "href": "about.html#guide-data-model",
     "title": "About",
     "section": "Guide data model",
-    "text": "Guide data model\nOur example guide has 9 items. Because 9 is a magic number!\n(= has 9 Guide items)\n\nThe Guide\n\nTitle / ID (mandatory)\nAuthors\nCreation date\nDescription\nList of guide items (mandatory)\nLocation\nCategory (from Wikimedia Commons?)\n\n\n\n\n\n\n\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nSprengel Guide or Q001\nText\nmandatory. can be a Q-number\n\n\nAuthor\nErika Mustermann\nString, or maybe Item if we have user accounts\noptional, repeatable.\n\n\nCreation Date\n2025-04-07\nPoint in Time\noptional\n\n\nDescription\nGuide to the public art around Sprengel museum.\nString\noptional\n\n\nGuide Item\nAnother Twister\nItem\nmandatory, repeatable. for 9 items we need 9 of these entries\n\n\nLocation\nHanover\nString\noptional\n\n\nCategory\nImages of Sculptures\nString\noptional",
+    "text": "Guide data model\nOur example guide has 9 items. Because 9 is a magic number!\n(= has 9 Guide items)\n\nA Guidebook list\n\nTitle / ID (mandatory)\nAuthors\nCreation date\nDescription\nList of guide items (mandatory)\nLocation\nCategory (from Wikimedia Commons?)\n\n\n\n\n\n\n\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nSprengel Guide or Q001\nText\nmandatory. can be a Q-number\n\n\nAuthor\nErika Mustermann\nString, or maybe Item if we have user accounts\noptional, repeatable.\n\n\nCreation Date\n2025-04-07\nPoint in Time\noptional\n\n\nDescription\nGuide to the public art around Sprengel museum.\nString\noptional\n\n\nGuide Item\nAnother Twister\nItem\nmandatory, repeatable. for 9 items we need 9 of these entries\n\n\nLocation\nHanover\nString\noptional\n\n\nCategory\nImages of Sculptures\nString\noptional",
     "crumbs": [
       "About"
     ]
   },
   {
-    "objectID": "about.html#guide-item",
-    "href": "about.html#guide-item",
+    "objectID": "about.html#a-guide-item",
+    "href": "about.html#a-guide-item",
     "title": "About",
-    "section": "Guide Item",
-    "text": "Guide Item\n(= part of Guide object)\n\nTitle\nPicture\nGeolocation / coordinates\nDescription\nWikidata ID (if available)\n\n→ ideally, all this info can be taken from Wikimedia Commons\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nAnother Twister or Q20\nString\n\n\n\nPicture\nAnother_Twister.jpg\nCommons media file\nautomatically searches the File: namespace on Commons\n\n\nGeolocation\n52.363442, 9.739542\nGeographic coordinates\n\n\n\nDescription\nSculpture by Alice Aycock\nString\n\n\n\nWikidata ID\nQ523722 (transforms to https://www.wikidata.org/wiki/Q523722)\nExternal identifier\ncan be used to get additional information, such as links to Wikipedia. the property has to be set up with a formatter URL",
+    "section": "A Guide Item",
+    "text": "A Guide Item\n(= part of Guide object)\n\nTitle\nPicture\nGeolocation / coordinates\nDescription\nWikidata ID (if available)\n\n→ ideally, all this info can be taken from Wikimedia Commons\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nAnother Twister or Q20\nString\n\n\n\nPicture\nAnother_Twister.jpg\nCommons media file\nautomatically searches the File: namespace on Commons\n\n\nGeolocation\n52.363442, 9.739542\nGeographic coordinates\n\n\n\nDescription\nSculpture by Alice Aycock\nString\n\n\n\nWikidata ID\nQ523722 (transforms to https://www.wikidata.org/wiki/Q523722)\nExternal identifier\ncan be used to get additional information, such as links to Wikipedia. the property has to be set up with a formatter URL",
     "crumbs": [
       "About"
     ]
@@ -90,13 +100,103 @@
     ]
   },
   {
+    "objectID": "about.html#related-work",
+    "href": "about.html#related-work",
+    "title": "About",
+    "section": "Related work",
+    "text": "Related work\nhttps://calnfynn.github.io/KarteHannover/",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
     "objectID": "cs.html",
     "href": "cs.html",
     "title": "Citizen Science",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
+    "text": "Learning materials\nhttps://computational-publishing-service.wikibase.cloud/wiki/Transfer_Commons_Images_to_Wikibase#QuickStatements\nhttps://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine_wikimedia_commons/",
     "crumbs": [
       "Citizen Science"
+    ]
+  },
+  {
+    "objectID": "data models.html",
+    "href": "data models.html",
+    "title": "Data Models",
+    "section": "",
+    "text": "A Guidebook list",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#a-guidebook-list",
+    "href": "data models.html#a-guidebook-list",
+    "title": "Data Models",
+    "section": "",
+    "text": "Title / ID (mandatory)\nAuthors\nCreation date\nDescription\nList of guide items (mandatory)\nLocation\nCategory (from Wikimedia Commons?)\n\n\n\n\n\n\n\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nSprengel Guide or Q001\nText\nmandatory. can be a Q-number\n\n\nAuthor\nErika Mustermann\nString, or maybe Item if we have user accounts\noptional, repeatable.\n\n\nCreation Date\n2025-04-07\nPoint in Time\noptional\n\n\nDescription\nGuide to the public art around Sprengel museum.\nString\noptional\n\n\nGuide Item\nAnother Twister\nItem\nmandatory, repeatable. for 9 items we need 9 of these entries\n\n\nLocation\nHanover\nString\noptional\n\n\nCategory\nImages of Sculptures\nString\noptional",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#a-guidebook-list-item",
+    "href": "data models.html#a-guidebook-list-item",
+    "title": "Data Models",
+    "section": "A guidebook list item",
+    "text": "A guidebook list item\n(= part of Guide object)\n\nTitle\nPicture\nGeolocation / coordinates\nDescription\nWikidata ID (if available)\n\n→ ideally, all this info can be taken from Wikimedia Commons\n\n\n\nLabel\nExample Value\nDatatype\nNote\n\n\n\n\nTitle\nAnother Twister or Q20\nString\n\n\n\nPicture\nAnother_Twister.jpg\nCommons media file\nautomatically searches the File: namespace on Commons\n\n\nGeolocation\n52.363442, 9.739542\nGeographic coordinates\n\n\n\nDescription\nSculpture by Alice Aycock\nString\n\n\n\nWikidata ID\nQ523722 (transforms to https://www.wikidata.org/wiki/Q523722)\nExternal identifier\ncan be used to get additional information, such as links to Wikipedia. the property has to be set up with a formatter URL",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#an-image-map",
+    "href": "data models.html#an-image-map",
+    "title": "Data Models",
+    "section": "An image map",
+    "text": "An image map",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#a-timeline",
+    "href": "data models.html#a-timeline",
+    "title": "Data Models",
+    "section": "A timeline",
+    "text": "A timeline",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#a-publication",
+    "href": "data models.html#a-publication",
+    "title": "Data Models",
+    "section": "A publication",
+    "text": "A publication",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#a-publication-deposit",
+    "href": "data models.html#a-publication-deposit",
+    "title": "Data Models",
+    "section": "A publication deposit",
+    "text": "A publication deposit",
+    "crumbs": [
+      "Data Models"
+    ]
+  },
+  {
+    "objectID": "data models.html#learning-materials",
+    "href": "data models.html#learning-materials",
+    "title": "Data Models",
+    "section": "Learning materials",
+    "text": "Learning materials\nhttps://tib.eu/cloud/s/nKKnQgHgyLn66Fw#h-data-model-creation-a-step-by-step-guide",
+    "crumbs": [
+      "Data Models"
     ]
   }
 ]

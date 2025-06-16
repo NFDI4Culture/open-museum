@@ -1,0 +1,16 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"donjayamanne.vscode-default-python-kernel"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
+	}, 
+	"postStartCommand": "quarto install tinytex"  
+}
