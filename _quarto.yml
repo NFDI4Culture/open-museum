@@ -2,6 +2,10 @@ project:
   type: book
   output-dir: docs
 
+doi: "10.23915/reprodocs.00010"
+
+
+
 book:
   title: "Museum Guidebooks"
   author: 
