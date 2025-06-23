@@ -4,8 +4,6 @@ Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen scien
 
 ![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
 
-Project inspired by the 1700s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
-
 The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
 
 Welcome to 'Open Museum'! If museums made deposits of open data of what's on show - then their visitors could make 'play lists' of their favourite works and share them online.
@@ -13,6 +11,12 @@ Welcome to 'Open Museum'! If museums made deposits of open data of what's on sho
 The 'Open Museum' pitch is that the public take part in this cataloguing and a Citizen Science Experience.
 
 The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 'how to' model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).
+
+A project made the students of the Bachelor course [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of the Applied Science and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab - TIB, and with NFDI4Culture.
+
+<img src="images/logo-hochschule-hannover-1.png" alt="csm_hs-hannover" width="200"/>
+<img src="images/TIB_Logo_EN_Master_RGB.png" alt="csm_hs-hannover" width="200"/>
+<img src="images/200630_NFDI4Culture.jpg" alt="csm_hs-hannover" width="200"/>
 
 1. Use case
 
@@ -48,7 +52,7 @@ The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
-|    Data            +------------>       The public    +------------>|     Learning      |
+|       Data         +------------>     The public      +------------>|     Learning      |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
@@ -65,6 +69,8 @@ The project is to create a system where museum visitors create their own publica
 As a basis for the prototype the Computational Publishing Service demo is being used. See: [CPS Demo #2](https://nfdi4culture.github.io/cps-demo-2/)
 
 The Spengel Museum Hannover will be used as the example museum. See the museum data profile on [Wikidata Resonator](https://reasonator.toolforge.org/?q=Q510144)
+
+Project inspired by the 1700s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
 
 ## Run Notebooks
 

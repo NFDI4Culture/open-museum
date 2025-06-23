@@ -26,8 +26,7 @@ book:
     - data models.qmd
   cover-image: WikiMap-04-04-2025_05_12_PM.jpg
   repo-url: https://github.com/NFDI4Culture/open-museum
-  repo-actions: [source]  
-  downloads: [pdf,docx]  
+  repo-actions: [source]
   sidebar: 
    logo: WikiMap-04-04-2025_05_12_PM.jpg
   bread-crumbs: true
@@ -37,11 +36,7 @@ format:
     toc: false
     number-sections: true
     theme: brite
-  pdf:
-    documentclass: book
-  docx: 
-    number-sections: false
-    toc: true
+
 
 
 

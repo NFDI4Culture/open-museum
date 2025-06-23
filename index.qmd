@@ -10,4 +10,8 @@ The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 
 
 --
 
-Project inspired by the 1700s database - Corpus [Johann Joachim Winckelmanns](https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann) (1717–1768). [Census.de](https://www.census.de/kooperationen/corpus-winckelmann/) 
+A project made the students of the Bachelor course [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of the Applied Science and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab - TIB, and with NFDI4Culture.
+
+<img src="images/logo-hochschule-hannover-1.png" alt="csm_hs-hannover" width="200"/>
+<img src="images/TIB_Logo_EN_Master_RGB.png" alt="csm_hs-hannover" width="200"/>
+<img src="images/200630_NFDI4Culture.jpg" alt="csm_hs-hannover" width="200"/>
