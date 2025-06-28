@@ -33,7 +33,7 @@ A project made the students of the Bachelor of Arts [Information Management (BIM
   - A permanent record of museums work will be created.
   - Contributed to linked open data commons for researchers and the public
 
-3. Persona and storyboard (user needs / what is blocking the user)
+3. Personas and storyboarding (user needs / what is blocking the user)
 
   - Museum visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.
   - Museum exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.
@@ -43,7 +43,12 @@ A project made the students of the Bachelor of Arts [Information Management (BIM
 
   - Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don't publish this data.
 
-  - Solution: Support museums visitors to publish and use the data as a citizen science project 'Open Musuem'. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.
+  - Solution: Support museums visitors to publish and use the data as a citizen science project 'Open Museum'. The data is has two parts: 
+    a. Calendar of exhibitions, and 
+    b. Catalogue of items in an exhibition. 
+    
+    Both of these data would be catalogued and indexed using Wikimedia infrastructure.
+  
 
 5. A schematic
 
