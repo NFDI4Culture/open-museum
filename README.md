@@ -49,7 +49,6 @@ A project made the students of the Bachelor of Arts [Information Management (BIM
     
     Both of these data would be catalogued and indexed using Wikimedia infrastructure.
   
-
 5. A schematic
 
 <pre>
