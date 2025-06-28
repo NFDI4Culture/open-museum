@@ -5,11 +5,11 @@ project:
 doi: "10.5281/zenodo.15646039"
  
 book:
-  title: "Open Museum Guidebooks"
+  title: "Making Citizen Science Guidebooks"
   author: 
     name: "Team Data Science, HsH"
     affiliations: 
-        - "Hanover University of Applied Sciences and Arts"
+        - "Hannover University of Applied Sciences and Arts"
         - "Open Science Lab, TIB"
         - "NFDI4Culture"
   date: today
@@ -28,7 +28,7 @@ book:
   repo-url: https://github.com/NFDI4Culture/open-museum
   repo-actions: [source]
   sidebar: 
-   logo: WikiMap-04-04-2025_05_12_PM.jpg
+   logo: images/logo.png
   bread-crumbs: true
 
 format:

@@ -6,13 +6,13 @@ Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen scien
 
 The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
 
-Welcome to 'Open Museum'! If museums made deposits of open data of what's on show - then their visitors could make 'play lists' of their favourite works and share them online.
+Welcome to 'Open Museum'! If museums made deposits of open data of what's on show — then their visitors could make 'play lists' of their favourite works and share them online.
 
 The 'Open Museum' pitch is that the public take part in this cataloguing and a Citizen Science Experience.
 
 The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 'how to' model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).
 
-A project made the students of the Bachelor course [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of the Applied Science and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab - TIB, and with NFDI4Culture.
+A project made the students of the Bachelor of Arts [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of the Applied Science and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)
 
 <img src="images/logo-hochschule-hannover-1.png" alt="csm_hs-hannover" width="200"/>
 <img src="images/TIB_Logo_EN_Master_RGB.png" alt="csm_hs-hannover" width="200"/>
@@ -31,11 +31,12 @@ A project made the students of the Bachelor course [Information Management (BIM)
   - Museums can attract more visitors.
   - Museums can support deep learning in their respective knowledge domains.
   - A permanent record of museums work will be created.
+  - Contributed to linked open data commons for researchers and the public
 
 3. Persona and storyboard (user needs / what is blocking the user)
 
-  - Musuem visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.
-  - Musuem exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.
+  - Museum visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.
+  - Museum exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.
   - Special interest group (Climate change education group): Need: Ensure access to understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.
 
 4. Problem / solution
@@ -62,7 +63,7 @@ A project made the students of the Bachelor course [Information Management (BIM)
 
 ## About
 
-A prototype project being made with the students of the Data Science course of Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
+A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
 
 The project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.
 
