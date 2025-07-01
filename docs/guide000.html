@@ -202,13 +202,21 @@ ul.task-list li input[type="checkbox"] {
 <head>
     
     <meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;></script>
     <script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;></script>
     <script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;></script>
     <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;></script>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/>
@@ -216,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_2ed4a85f396502d90aa2fddf0d307c1d {
+                #map_00ab13ba90ba8a7e04983cd8e9ec01f5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -225,29 +233,6 @@ ul.task-list li input[type="checkbox"] {
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
-
-            <style>html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            </style>
-
-            <style>#map {
-                position:absolute;
-                top:0;
-                bottom:0;
-                right:0;
-                left:0;
-                }
-            </style>
-
-            <script>
-                L_NO_TOUCH = false;
-                L_DISABLE_3D = false;
-            </script>
-
         
     <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js&quot;></script>
     <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css&quot;/>
@@ -260,23 +245,20 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_2ed4a85f396502d90aa2fddf0d307c1d&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_00ab13ba90ba8a7e04983cd8e9ec01f5&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_2ed4a85f396502d90aa2fddf0d307c1d = L.map(
-                &quot;map_2ed4a85f396502d90aa2fddf0d307c1d&quot;,
+            var map_00ab13ba90ba8a7e04983cd8e9ec01f5 = L.map(
+                &quot;map_00ab13ba90ba8a7e04983cd8e9ec01f5&quot;,
                 {
                     center: [52.362239, 9.740075],
                     crs: L.CRS.EPSG3857,
-                    ...{
-  &quot;zoom&quot;: 16,
-  &quot;zoomControl&quot;: true,
-  &quot;preferCanvas&quot;: false,
-}
-
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
                 }
             );
 
@@ -284,520 +266,341 @@ ul.task-list li input[type="checkbox"] {
 
         
     
-            var tile_layer_6a52ca04300af1f89382e9f7672ab5e2 = L.tileLayer(
+            var tile_layer_2a3c2702873c992d6b1cc96d24faaa32 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
-                {
-  &quot;minZoom&quot;: 0,
-  &quot;maxZoom&quot;: 25,
-  &quot;maxNativeZoom&quot;: 25,
-  &quot;noWrap&quot;: false,
-  &quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;,
-  &quot;subdomains&quot;: &quot;abc&quot;,
-  &quot;detectRetina&quot;: false,
-  &quot;tms&quot;: false,
-  &quot;opacity&quot;: 1,
-}
-
+                {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
             );
         
     
-            tile_layer_6a52ca04300af1f89382e9f7672ab5e2.addTo(map_2ed4a85f396502d90aa2fddf0d307c1d);
+            tile_layer_2a3c2702873c992d6b1cc96d24faaa32.addTo(map_00ab13ba90ba8a7e04983cd8e9ec01f5);
         
     
-            var marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30 = L.markerClusterGroup(
-                {
-}
+            var marker_cluster_41ebc1217229f3b846931dd2382f90ad = L.markerClusterGroup(
+                {}
             );
         
     
-            var marker_53a4d5e667b53617b08d49527d9bc771 = L.marker(
+            var marker_e5c25cdbb09e0c697f1d08ead8ff8a08 = L.marker(
                 [52.362239, 9.740075],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_27da8301b1f1a117e17d28ac66807687 = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 1,
-}
+            var beautify_icon_86742c85f162699882450debc8120fa1 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 1, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_53a4d5e667b53617b08d49527d9bc771.setIcon(beautify_icon_27da8301b1f1a117e17d28ac66807687);
+            marker_e5c25cdbb09e0c697f1d08ead8ff8a08.setIcon(beautify_icon_86742c85f162699882450debc8120fa1);
         
     
-        var popup_b98cdaea6b0ebea36dd6eb6fd72d55da = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_75090559fac26b8d8ade61c3483b6d43 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_3b6a2da12b441e9776af398496fb2bda = $(`<div id=&quot;html_3b6a2da12b441e9776af398496fb2bda&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>A corner view of the Sprengel Museum Hannover</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1b/A_corner_view_of_the_Sprengel_Museum_Hannover.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_b98cdaea6b0ebea36dd6eb6fd72d55da.setContent(html_3b6a2da12b441e9776af398496fb2bda);
+                var html_b966a60cea557b0b20ed0a2baeccfa55 = $(`<div id=&quot;html_b966a60cea557b0b20ed0a2baeccfa55&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>A corner view of the Sprengel Museum Hannover</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1b/A_corner_view_of_the_Sprengel_Museum_Hannover.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_75090559fac26b8d8ade61c3483b6d43.setContent(html_b966a60cea557b0b20ed0a2baeccfa55);
             
         
 
-        marker_53a4d5e667b53617b08d49527d9bc771.bindPopup(popup_b98cdaea6b0ebea36dd6eb6fd72d55da)
+        marker_e5c25cdbb09e0c697f1d08ead8ff8a08.bindPopup(popup_75090559fac26b8d8ade61c3483b6d43)
         ;
 
         
     
     
-            marker_53a4d5e667b53617b08d49527d9bc771.bindTooltip(
+            marker_e5c25cdbb09e0c697f1d08ead8ff8a08.bindTooltip(
                 `<div>
                      A corner view of the Sprengel Museum Hannover
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_53a4d5e667b53617b08d49527d9bc771.setIcon(beautify_icon_27da8301b1f1a117e17d28ac66807687);
-            
-    
-            var marker_9049841494988e19b1eb2b18e4ac6b29 = L.marker(
+            var marker_0b0990baaac1809a7afc17ccb996a353 = L.marker(
                 [52.363442, 9.739542],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_9dd513186f65d6af46c8696ccff35b0c = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 2,
-}
+            var beautify_icon_176f4792ecacb225424e0949a6d9f62a = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 2, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_9049841494988e19b1eb2b18e4ac6b29.setIcon(beautify_icon_9dd513186f65d6af46c8696ccff35b0c);
+            marker_0b0990baaac1809a7afc17ccb996a353.setIcon(beautify_icon_176f4792ecacb225424e0949a6d9f62a);
         
     
-        var popup_074d944cfd2d6c1fd00d762e4ca5f35f = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_f5b42561776c6aabeeae07d4dbf439cc = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_6828830d7f4fecf77132d33dee832df3 = $(`<div id=&quot;html_6828830d7f4fecf77132d33dee832df3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Another Twister</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/9/98/Another_Twister.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_074d944cfd2d6c1fd00d762e4ca5f35f.setContent(html_6828830d7f4fecf77132d33dee832df3);
+                var html_886126ef2667e93f400bed4c9a2456dd = $(`<div id=&quot;html_886126ef2667e93f400bed4c9a2456dd&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Another Twister</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/9/98/Another_Twister.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_f5b42561776c6aabeeae07d4dbf439cc.setContent(html_886126ef2667e93f400bed4c9a2456dd);
             
         
 
-        marker_9049841494988e19b1eb2b18e4ac6b29.bindPopup(popup_074d944cfd2d6c1fd00d762e4ca5f35f)
+        marker_0b0990baaac1809a7afc17ccb996a353.bindPopup(popup_f5b42561776c6aabeeae07d4dbf439cc)
         ;
 
         
     
     
-            marker_9049841494988e19b1eb2b18e4ac6b29.bindTooltip(
+            marker_0b0990baaac1809a7afc17ccb996a353.bindTooltip(
                 `<div>
                      Another Twister
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_9049841494988e19b1eb2b18e4ac6b29.setIcon(beautify_icon_9dd513186f65d6af46c8696ccff35b0c);
-            
-    
-            var marker_50b5d77daf2d028dd8c89cd3dd2c24df = L.marker(
+            var marker_1e3893adbedbf7294a94c182e0081766 = L.marker(
                 [52.363108, 9.740197],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_2c773f2be9f7b357e8a2e09359224304 = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 3,
-}
+            var beautify_icon_9c38e9735bb38ffe956c446403de3cd0 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 3, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_50b5d77daf2d028dd8c89cd3dd2c24df.setIcon(beautify_icon_2c773f2be9f7b357e8a2e09359224304);
+            marker_1e3893adbedbf7294a94c182e0081766.setIcon(beautify_icon_9c38e9735bb38ffe956c446403de3cd0);
         
     
-        var popup_81ea585e350a0c4a7e13b5c8866f271c = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_ef01656e59c1131c67a147ef2c9040b6 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_2928e3e760838a3b8b93079d9b72f4be = $(`<div id=&quot;html_2928e3e760838a3b8b93079d9b72f4be&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Corridor in Sprengel Museum</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/7f/Corridor_in_Sprengel_Museum.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_81ea585e350a0c4a7e13b5c8866f271c.setContent(html_2928e3e760838a3b8b93079d9b72f4be);
+                var html_f20538f641cfc34d81fe55db742774d1 = $(`<div id=&quot;html_f20538f641cfc34d81fe55db742774d1&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Corridor in Sprengel Museum</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/7f/Corridor_in_Sprengel_Museum.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_ef01656e59c1131c67a147ef2c9040b6.setContent(html_f20538f641cfc34d81fe55db742774d1);
             
         
 
-        marker_50b5d77daf2d028dd8c89cd3dd2c24df.bindPopup(popup_81ea585e350a0c4a7e13b5c8866f271c)
+        marker_1e3893adbedbf7294a94c182e0081766.bindPopup(popup_ef01656e59c1131c67a147ef2c9040b6)
         ;
 
         
     
     
-            marker_50b5d77daf2d028dd8c89cd3dd2c24df.bindTooltip(
+            marker_1e3893adbedbf7294a94c182e0081766.bindTooltip(
                 `<div>
                      Corridor in Sprengel Museum
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_50b5d77daf2d028dd8c89cd3dd2c24df.setIcon(beautify_icon_2c773f2be9f7b357e8a2e09359224304);
-            
-    
-            var marker_9e6445842e085999b3f5ec2c5d1ce674 = L.marker(
+            var marker_195f2db8d8b8f399f178c1477880dc39 = L.marker(
                 [52.363469, 9.73925],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_ac377768e196a7219d7e78da3bbc7fbb = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 4,
-}
+            var beautify_icon_6dccb8443f7ce72cb0e42f5766ca7e89 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 4, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_9e6445842e085999b3f5ec2c5d1ce674.setIcon(beautify_icon_ac377768e196a7219d7e78da3bbc7fbb);
+            marker_195f2db8d8b8f399f178c1477880dc39.setIcon(beautify_icon_6dccb8443f7ce72cb0e42f5766ca7e89);
         
     
-        var popup_566b2a00bf045b5b0e833f23e41f640f = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_59ea8e243f36b55785f7a66b8a209034 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_3de470ea19e28598ed040468953bc4d3 = $(`<div id=&quot;html_3de470ea19e28598ed040468953bc4d3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Entrance of the Sprengel Museum Hannover</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/f3/Entrance_of_the_Sprengel_Museum_Hannover.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_566b2a00bf045b5b0e833f23e41f640f.setContent(html_3de470ea19e28598ed040468953bc4d3);
+                var html_fb126a581d9ef1826bd0a7d2436cb1fa = $(`<div id=&quot;html_fb126a581d9ef1826bd0a7d2436cb1fa&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Entrance of the Sprengel Museum Hannover</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/f3/Entrance_of_the_Sprengel_Museum_Hannover.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_59ea8e243f36b55785f7a66b8a209034.setContent(html_fb126a581d9ef1826bd0a7d2436cb1fa);
             
         
 
-        marker_9e6445842e085999b3f5ec2c5d1ce674.bindPopup(popup_566b2a00bf045b5b0e833f23e41f640f)
+        marker_195f2db8d8b8f399f178c1477880dc39.bindPopup(popup_59ea8e243f36b55785f7a66b8a209034)
         ;
 
         
     
     
-            marker_9e6445842e085999b3f5ec2c5d1ce674.bindTooltip(
+            marker_195f2db8d8b8f399f178c1477880dc39.bindTooltip(
                 `<div>
                      Entrance of the Sprengel Museum Hannover
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_9e6445842e085999b3f5ec2c5d1ce674.setIcon(beautify_icon_ac377768e196a7219d7e78da3bbc7fbb);
-            
-    
-            var marker_c8740ef5efd87e1d469934fd764430a5 = L.marker(
+            var marker_aaa0b05382349cfd8df490eabd1b76e7 = L.marker(
                 [52.362653, 9.740046],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_3bb8e07a1843e2e108befc00e194b2f7 = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 5,
-}
+            var beautify_icon_7b302e5748f56108e1b8f7f950bc42ea = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 5, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_c8740ef5efd87e1d469934fd764430a5.setIcon(beautify_icon_3bb8e07a1843e2e108befc00e194b2f7);
+            marker_aaa0b05382349cfd8df490eabd1b76e7.setIcon(beautify_icon_7b302e5748f56108e1b8f7f950bc42ea);
         
     
-        var popup_f3359a6a574b424ea2719c5af06ef6d9 = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_6fcf953db7e423d555af219b66b43f31 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_f28dd177390d0ae0a3ec069c287e55ad = $(`<div id=&quot;html_f28dd177390d0ae0a3ec069c287e55ad&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Hallway Sprengel Museum Hannover 2</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Hallway_Sprengel_Museum_Hannover_2.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_f3359a6a574b424ea2719c5af06ef6d9.setContent(html_f28dd177390d0ae0a3ec069c287e55ad);
+                var html_c2eb0aea9106af844921dba23631564e = $(`<div id=&quot;html_c2eb0aea9106af844921dba23631564e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Hallway Sprengel Museum Hannover 2</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/70/Hallway_Sprengel_Museum_Hannover_2.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_6fcf953db7e423d555af219b66b43f31.setContent(html_c2eb0aea9106af844921dba23631564e);
             
         
 
-        marker_c8740ef5efd87e1d469934fd764430a5.bindPopup(popup_f3359a6a574b424ea2719c5af06ef6d9)
+        marker_aaa0b05382349cfd8df490eabd1b76e7.bindPopup(popup_6fcf953db7e423d555af219b66b43f31)
         ;
 
         
     
     
-            marker_c8740ef5efd87e1d469934fd764430a5.bindTooltip(
+            marker_aaa0b05382349cfd8df490eabd1b76e7.bindTooltip(
                 `<div>
                      Hallway Sprengel Museum Hannover 2
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_c8740ef5efd87e1d469934fd764430a5.setIcon(beautify_icon_3bb8e07a1843e2e108befc00e194b2f7);
-            
-    
-            var marker_8cbd50ad5409478e10e8753e48a696fc = L.marker(
+            var marker_d6fd42ca5fa4edbcffb268c9a17970a1 = L.marker(
                 [52.363442, 9.739542],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_c2569e45d53b77bc96a631c8107cc681 = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 6,
-}
+            var beautify_icon_018f21a1b55eeb660d05abeb66ffef11 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 6, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_8cbd50ad5409478e10e8753e48a696fc.setIcon(beautify_icon_c2569e45d53b77bc96a631c8107cc681);
+            marker_d6fd42ca5fa4edbcffb268c9a17970a1.setIcon(beautify_icon_018f21a1b55eeb660d05abeb66ffef11);
         
     
-        var popup_6789d7f362867b546254a4815d3198ad = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_51886b52e85da8b8b1ff89787e9c84b2 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_2c1e1040fc0edea120771eb8549eab3b = $(`<div id=&quot;html_2c1e1040fc0edea120771eb8549eab3b&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Kurt - Schwitters - Platz road sign</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b2/Kurt_-_Schwitters_-_Platz_road_sign.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_6789d7f362867b546254a4815d3198ad.setContent(html_2c1e1040fc0edea120771eb8549eab3b);
+                var html_1fb2b4d89d896c68418d7e887c736a6e = $(`<div id=&quot;html_1fb2b4d89d896c68418d7e887c736a6e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Kurt - Schwitters - Platz road sign</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b2/Kurt_-_Schwitters_-_Platz_road_sign.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_51886b52e85da8b8b1ff89787e9c84b2.setContent(html_1fb2b4d89d896c68418d7e887c736a6e);
             
         
 
-        marker_8cbd50ad5409478e10e8753e48a696fc.bindPopup(popup_6789d7f362867b546254a4815d3198ad)
+        marker_d6fd42ca5fa4edbcffb268c9a17970a1.bindPopup(popup_51886b52e85da8b8b1ff89787e9c84b2)
         ;
 
         
     
     
-            marker_8cbd50ad5409478e10e8753e48a696fc.bindTooltip(
+            marker_d6fd42ca5fa4edbcffb268c9a17970a1.bindTooltip(
                 `<div>
                      Kurt - Schwitters - Platz road sign
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_8cbd50ad5409478e10e8753e48a696fc.setIcon(beautify_icon_c2569e45d53b77bc96a631c8107cc681);
-            
-    
-            var marker_6d764e3891597aaacc6f964dbd06f3af = L.marker(
+            var marker_9c2a4bebf0a54e250e69db52042f40cb = L.marker(
                 [52.363429, 9.739341],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_236a3e1dba0d557ad3de258681f2ec2a = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 7,
-}
+            var beautify_icon_900a67ff4a945528f238451331a900a0 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 7, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_6d764e3891597aaacc6f964dbd06f3af.setIcon(beautify_icon_236a3e1dba0d557ad3de258681f2ec2a);
+            marker_9c2a4bebf0a54e250e69db52042f40cb.setIcon(beautify_icon_900a67ff4a945528f238451331a900a0);
         
     
-        var popup_29304771b2dbd6f750c9cccb7487b77f = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_c44dc6bfdfdc06fab607f9e4c76ce9ef = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_3ca7c4b8fa17ac79c1687349d503219d = $(`<div id=&quot;html_3ca7c4b8fa17ac79c1687349d503219d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Entrance With Statue</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/15/Sprengel_Museum_Entrance_With_Statue.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_29304771b2dbd6f750c9cccb7487b77f.setContent(html_3ca7c4b8fa17ac79c1687349d503219d);
+                var html_dc2bb142b90db8ec8b47df5e5c1ac692 = $(`<div id=&quot;html_dc2bb142b90db8ec8b47df5e5c1ac692&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Entrance With Statue</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/15/Sprengel_Museum_Entrance_With_Statue.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_c44dc6bfdfdc06fab607f9e4c76ce9ef.setContent(html_dc2bb142b90db8ec8b47df5e5c1ac692);
             
         
 
-        marker_6d764e3891597aaacc6f964dbd06f3af.bindPopup(popup_29304771b2dbd6f750c9cccb7487b77f)
+        marker_9c2a4bebf0a54e250e69db52042f40cb.bindPopup(popup_c44dc6bfdfdc06fab607f9e4c76ce9ef)
         ;
 
         
     
     
-            marker_6d764e3891597aaacc6f964dbd06f3af.bindTooltip(
+            marker_9c2a4bebf0a54e250e69db52042f40cb.bindTooltip(
                 `<div>
                      Sprengel Museum Entrance With Statue
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_6d764e3891597aaacc6f964dbd06f3af.setIcon(beautify_icon_236a3e1dba0d557ad3de258681f2ec2a);
-            
-    
-            var marker_270e114f74107edd6c15fce71009c697 = L.marker(
+            var marker_1035970cb39ee68a50b805b41a77bbcd = L.marker(
                 [52.3617, 9.741093],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_a6ddf7e3b056405cc5d4aca903bcaa6a = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 8,
-}
+            var beautify_icon_862a720c03a793e33cbec40fa4b04007 = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 8, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_270e114f74107edd6c15fce71009c697.setIcon(beautify_icon_a6ddf7e3b056405cc5d4aca903bcaa6a);
+            marker_1035970cb39ee68a50b805b41a77bbcd.setIcon(beautify_icon_862a720c03a793e33cbec40fa4b04007);
         
     
-        var popup_d8c9ab115d5bbe097cc74533c19f34f7 = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_417620721f8c4ccfc71dc094816c3ffe = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_6a4f97cf766ccaa2e80aa6614f289ace = $(`<div id=&quot;html_6a4f97cf766ccaa2e80aa6614f289ace&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Extension - side view</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/10/Sprengel_Museum_Extension_-_side_view.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_d8c9ab115d5bbe097cc74533c19f34f7.setContent(html_6a4f97cf766ccaa2e80aa6614f289ace);
+                var html_0df46e6e55c99eab0118ed2b20c70912 = $(`<div id=&quot;html_0df46e6e55c99eab0118ed2b20c70912&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Extension - side view</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/10/Sprengel_Museum_Extension_-_side_view.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_417620721f8c4ccfc71dc094816c3ffe.setContent(html_0df46e6e55c99eab0118ed2b20c70912);
             
         
 
-        marker_270e114f74107edd6c15fce71009c697.bindPopup(popup_d8c9ab115d5bbe097cc74533c19f34f7)
+        marker_1035970cb39ee68a50b805b41a77bbcd.bindPopup(popup_417620721f8c4ccfc71dc094816c3ffe)
         ;
 
         
     
     
-            marker_270e114f74107edd6c15fce71009c697.bindTooltip(
+            marker_1035970cb39ee68a50b805b41a77bbcd.bindTooltip(
                 `<div>
                      Sprengel Museum Extension - side view
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_270e114f74107edd6c15fce71009c697.setIcon(beautify_icon_a6ddf7e3b056405cc5d4aca903bcaa6a);
-            
-    
-            var marker_3717a7f377f42d759c9a8ac95dcc0218 = L.marker(
+            var marker_32f580959822d10ce3452dffbf598f5f = L.marker(
                 [52.361506, 9.740566],
-                {
-}
-            ).addTo(marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30);
+                {}
+            ).addTo(marker_cluster_41ebc1217229f3b846931dd2382f90ad);
         
     
-            var beautify_icon_7532dbc5dfb7077bd363352411f11632 = new L.BeautifyIcon.icon(
-                {
-  &quot;iconShape&quot;: &quot;marker&quot;,
-  &quot;borderWidth&quot;: 3,
-  &quot;borderColor&quot;: &quot;#000&quot;,
-  &quot;textColor&quot;: &quot;#000&quot;,
-  &quot;backgroundColor&quot;: &quot;lightblue&quot;,
-  &quot;innerIconStyle&quot;: &quot;&quot;,
-  &quot;spin&quot;: false,
-  &quot;isAlphaNumericIcon&quot;: true,
-  &quot;text&quot;: 9,
-}
+            var beautify_icon_c83d37d0f79bc80ec40da5b80224771b = new L.BeautifyIcon.icon(
+                {&quot;backgroundColor&quot;: &quot;lightblue&quot;, &quot;borderColor&quot;: &quot;#000&quot;, &quot;borderWidth&quot;: 3, &quot;iconShape&quot;: &quot;marker&quot;, &quot;innerIconStyle&quot;: &quot;&quot;, &quot;isAlphaNumericIcon&quot;: true, &quot;spin&quot;: false, &quot;text&quot;: 9, &quot;textColor&quot;: &quot;#000&quot;}
             )
-            marker_3717a7f377f42d759c9a8ac95dcc0218.setIcon(beautify_icon_7532dbc5dfb7077bd363352411f11632);
+            marker_32f580959822d10ce3452dffbf598f5f.setIcon(beautify_icon_c83d37d0f79bc80ec40da5b80224771b);
         
     
-        var popup_f507d47a39026cbf680324c771ced767 = L.popup({
-  &quot;maxWidth&quot;: 220,
-});
+        var popup_9a08363e765509849c5a4a8afda318f5 = L.popup({&quot;maxWidth&quot;: 220});
 
         
             
-                var html_02a1c5536ddd3ba1b05903d3716d443c = $(`<div id=&quot;html_02a1c5536ddd3ba1b05903d3716d443c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Extension</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/a/ab/Sprengel_Museum_Extension.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
-                popup_f507d47a39026cbf680324c771ced767.setContent(html_02a1c5536ddd3ba1b05903d3716d443c);
+                var html_2519695c17efdb63901f5d2b6c3900ff = $(`<div id=&quot;html_2519695c17efdb63901f5d2b6c3900ff&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>     <h4 style=&quot;text-align: center; font-weight:bold&quot;>Sprengel Museum Extension</h4><br>     <img src=&quot;https://upload.wikimedia.org/wikipedia/commons/a/ab/Sprengel_Museum_Extension.jpg&quot; style=&quot;         width: 200px;      /* fixed square width */         height: 200px;     /* fixed square height */         object-fit: cover; /* crop/scale to fill */         border-radius: 100px;         display: block;         margin: auto;     &quot;>     </div>`)[0];
+                popup_9a08363e765509849c5a4a8afda318f5.setContent(html_2519695c17efdb63901f5d2b6c3900ff);
             
         
 
-        marker_3717a7f377f42d759c9a8ac95dcc0218.bindPopup(popup_f507d47a39026cbf680324c771ced767)
+        marker_32f580959822d10ce3452dffbf598f5f.bindPopup(popup_9a08363e765509849c5a4a8afda318f5)
         ;
 
         
     
     
-            marker_3717a7f377f42d759c9a8ac95dcc0218.bindTooltip(
+            marker_32f580959822d10ce3452dffbf598f5f.bindTooltip(
                 `<div>
                      Sprengel Museum Extension
                  </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
+                {&quot;sticky&quot;: true}
             );
         
     
-                marker_3717a7f377f42d759c9a8ac95dcc0218.setIcon(beautify_icon_7532dbc5dfb7077bd363352411f11632);
-            
-    
-            marker_cluster_964fd1b7a74eebc3ebdd7b10610cac30.addTo(map_2ed4a85f396502d90aa2fddf0d307c1d);
+            marker_cluster_41ebc1217229f3b846931dd2382f90ad.addTo(map_00ab13ba90ba8a7e04983cd8e9ec01f5);
         
     
             L.control.fullscreen(
-                {
-  &quot;position&quot;: &quot;topright&quot;,
-  &quot;title&quot;: &quot;Vollbild&quot;,
-  &quot;titleCancel&quot;: &quot;Schlie\u00dfen&quot;,
-  &quot;forceSeparateButton&quot;: true,
-}
-            ).addTo(map_2ed4a85f396502d90aa2fddf0d307c1d);
+                {&quot;forceSeparateButton&quot;: true, &quot;position&quot;: &quot;topright&quot;, &quot;title&quot;: &quot;Vollbild&quot;, &quot;titleCancel&quot;: &quot;Schlie\u00dfen&quot;}
+            ).addTo(map_00ab13ba90ba8a7e04983cd8e9ec01f5);
         
 </script>
 </html>" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe></div></div>
