@@ -2,9 +2,9 @@
 
 Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
 
-![image](https://raw.githubusercontent.com/NFDI4Culture/citizen-science-museum-guide/refs/heads/main/WikiMap-04-04-2025_05_12_PM.jpg)
+![image](https://commons.wikimedia.org/wiki/File:2-Guide-Architecture-exterior-Sprengel-Museum-%E2%80%93-Open-Museum-Guidebooks-A-Citizen-Science-Experience.png)
 
-A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
+A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of Applied Sciences and Arts - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
 
 The project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.
 

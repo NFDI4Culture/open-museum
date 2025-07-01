@@ -11,8 +11,6 @@ The project is to create a system where museum visitors create their own publica
 
 ## Learning materials
 
-## Wikimedia Commons (image data management)
+### Wikimedia Commons (image data management)
 
-https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine__wikimedia_commons_/
-
-
+[Importing Data With OpenRefine](https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine__wikimedia_commons_/)

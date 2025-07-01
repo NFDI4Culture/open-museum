@@ -1,8 +1,8 @@
 # Welcome {.unnumbered}
 
-The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.
+The idea: Museums have a calendar of exhibitions and a catalogue of what is on display in any given show. But this is not published in data repositories.
 
-Welcome to 'Open Museum'! If museums made deposits of open data of what's on show - then their visitors could make 'play lists' of their favourite works and share them online.
+Welcome to 'Open Museum'! If museums made deposits of open data of what's on show - then their visitors could make 'playlists' of their favourite works and share them online.
 
 The 'Open Museum' pitch is that the public take part in this cataloguing and a Citizen Science Experience.
 
@@ -10,7 +10,7 @@ The prototype 'Open Museum Guidebooks' has outlined the idea and is sharing the 
 
 ---
 
-A project made the students of the Bachelor of Arts [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of the Applied Science and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)
+A project made the students of the Bachelor of Arts [Information Management (BIM)](https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim) of Hannover University of Applied Sciences and Arts in partnership with [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)
 
 <img src="images/logo-hochschule-hannover-1.png" alt="csm_hs-hannover" width="200"/>
 <img src="images/TIB_Logo_EN_Master_RGB.png" alt="csm_hs-hannover" width="200"/>

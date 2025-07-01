@@ -14,7 +14,7 @@ book:
         - "NFDI4Culture"
   date: today
   
-  favicon: ./images/favicon-32x32.png
+  favicon: ./images/logo.png
   chapters:
     - index.qmd
     - guide000.ipynb
@@ -24,7 +24,8 @@ book:
     - about.qmd
     - cs.qmd
     - data models.qmd
-  cover-image: WikiMap-04-04-2025_05_12_PM.jpg
+  #cover-image: WikiMap-04-04-2025_05_12_PM.jpg
+  cover-image: ./images/mapsprengel.png
   repo-url: https://github.com/NFDI4Culture/open-museum
   repo-actions: [source]
   sidebar: 
@@ -36,7 +37,3 @@ format:
     toc: false
     number-sections: true
     theme: brite
-
-
-
-

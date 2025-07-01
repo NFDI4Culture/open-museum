@@ -29,9 +29,9 @@ The purpose of the exercise:
 
 ### Notes
 
-- Documentation note: Ensure that any software used has adequate documentation for installation and use, and that you have access to the documentation in the future. This is      necessary to be able to repeat the task in the future. Indicate if software has been tested and works as intended - initial and date tests.
+- Documentation note: Ensure that any software used has adequate documentation for installation and use, and that you have access to the documentation in the future. This is necessary to be able to repeat the task in the future. Indicate if software has been tested and works as intended - initial and date tests.
 - Wikdata data types - <https://www.wikidata.org/wiki/Help:Data_type>
-- SQL (Structured Query Language) is the common database technology. Instance of references are known as keys. Foreign key: <https://en.wikipedia.org/wiki/Foreign_key>. MySQL and SQLite (portable) are open-source versions of SQL. Wikibase uses its own type of implementation      of Foreign keys but the concept is very close.
+- SQL (Structured Query Language) is the common database technology. Instance of references are known as keys. Foreign key: <https://en.wikipedia.org/wiki/Foreign_key>. MySQL and SQLite (portable) are open-source versions of SQL. Wikibase uses its own type of implementation of Foreign keys but the concept is very close.
 
 ## Step-by-step guide
 
@@ -43,7 +43,7 @@ Complete these steps to create a version of a data model.
 
 With each step conduct a review, test, and sign off. This can be a colleague, peer, or carry out the checks yourself.
 
-An example completed data model is included, see: ***Example data model***
+An example completed data model is included, see: [Example data models](#example-data-models-made-in-bottom-up-way)
 
 #### Use case
 
@@ -68,7 +68,7 @@ The use case is looking to make a data model using the following online database
 
 **Review questions:**
 
-1\.     Is the use case narrow enough?
+1\.     Is the use case narrow enough?  
 
 2\.     Is the use case made bottom up - does it have a
 
