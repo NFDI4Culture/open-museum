@@ -2,7 +2,7 @@
 
 Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
 
-![image](https://commons.wikimedia.org/wiki/File:2-Guide-Architecture-exterior-Sprengel-Museum-%E2%80%93-Open-Museum-Guidebooks-A-Citizen-Science-Experience.png)
+![](https://upload.wikimedia.org/wikipedia/commons/a/a3/2-Guide-Architecture-exterior-Sprengel-Museum-%E2%80%93-Open-Museum-Guidebooks-A-Citizen-Science-Experience.png)
 
 A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of Applied Sciences and Arts - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
 
