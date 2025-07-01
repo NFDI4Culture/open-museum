@@ -1,20 +1,20 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Open Museum Guidebooks: A Citizen Science Experience",
-    "section": "",
-    "text": "Welcome\nThe idea: Museums have a calendar of exhibitions and a catalogue of what is on display in any given show. But this is not published in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘playlists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n\nA project made the students of the Bachelor of Arts Information Management (BIM) of Hannover University of Applied Sciences and Arts in partnership with Computational Publishing Service from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
     "objectID": "guide000.html",
     "href": "guide000.html",
     "title": "1  Guide: Architecture Timeline - Sprengel Museum",
     "section": "",
-    "text": "A timeline about the different phases of the museums architecture and the public art around it, based on images pulled from Wikimedia Commons.\nCreated by: Ash Dammeyer, 16 June 2025\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n\n1\nFile:A corner view of the Sprengel Museum Hannover.jpgA corner view of the Sprengel Museum Hannover\nA corner view of the Sprengel Museum Hannover \n  52.362239, 9.740075\n\n\n\n\n2\nFile:Another Twister.jpgAnother Twister\nAnother Twister \n  52.363442, 9.739542\n\n\n\n\n3\nFile:Corridor in Sprengel Museum.jpgCorridor in Sprengel Museum\nExample of brutalist architecture \n  52.363108, 9.740197\n\n\n\n\n4\nFile:Entrance of the Sprengel Museum Hannover.jpgEntrance of the Sprengel Museum Hannover\nThe entrance of the Sprengel Museum Hannover \n  52.363469, 9.73925\n\n\n\n\n5\nFile:Hallway Sprengel Museum Hannover 2.jpgHallway Sprengel Museum Hannover 2\nHallway inside the Sprengel Museum Hannover with leftover stairs on the wall \n  52.362653, 9.740046\n\n\n\n\n6\nFile:Kurt - Schwitters - Platz road sign.jpgKurt - Schwitters - Platz road sign\nRoad sign for Kurt - Schwitters - Platz in front of the Sprengel Museum, Hannover. \n  52.363442, 9.739542\n\n\n\n\n7\nFile:Sprengel Museum Entrance With Statue.jpgSprengel Museum Entrance With Statue\nSprengel Museum Entrance With Statue \n  52.363429, 9.739341\n\n\n\n8\nFile:Sprengel Museum Extension - side view.jpgSprengel Museum Extension - side view\nSprengel Museum Extension - side view \n  52.3617, 9.741093\n\n\n\n\n9\nFile:Sprengel Museum Extension.jpgSprengel Museum Extension\nSprengel Museum Extension \n  52.361506, 9.740566",
+    "text": "Timeline",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide: Architecture Timeline - Sprengel Museum</span>"
+    ]
+  },
+  {
+    "objectID": "guide000.html#timeline",
+    "href": "guide000.html#timeline",
+    "title": "1  Guide: Architecture Timeline - Sprengel Museum",
+    "section": "",
+    "text": "Make this Notebook Trusted to load map: File -&gt; Trust Notebook\n      \n      \n      \n      \n      Nr.\n      ⭿ Name\n      ⭿ Beschreibung\n      ⭿ Koordinaten\n        \n      \n      \n      \n\n1\nFile:A corner view of the Sprengel Museum Hannover.jpgA corner view of the Sprengel Museum Hannover\nA corner view of the Sprengel Museum Hannover \n  52.362239, 9.740075\n\n\n\n\n2\nFile:Another Twister.jpgAnother Twister\nAnother Twister \n  52.363442, 9.739542\n\n\n\n\n3\nFile:Corridor in Sprengel Museum.jpgCorridor in Sprengel Museum\nExample of brutalist architecture \n  52.363108, 9.740197\n\n\n\n\n4\nFile:Entrance of the Sprengel Museum Hannover.jpgEntrance of the Sprengel Museum Hannover\nThe entrance of the Sprengel Museum Hannover \n  52.363469, 9.73925\n\n\n\n\n5\nFile:Hallway Sprengel Museum Hannover 2.jpgHallway Sprengel Museum Hannover 2\nHallway inside the Sprengel Museum Hannover with leftover stairs on the wall \n  52.362653, 9.740046\n\n\n\n\n6\nFile:Kurt - Schwitters - Platz road sign.jpgKurt - Schwitters - Platz road sign\nRoad sign for Kurt - Schwitters - Platz in front of the Sprengel Museum, Hannover. \n  52.363442, 9.739542\n\n\n\n\n7\nFile:Sprengel Museum Entrance With Statue.jpgSprengel Museum Entrance With Statue\nSprengel Museum Entrance With Statue \n  52.363429, 9.739341\n\n\n\n8\nFile:Sprengel Museum Extension - side view.jpgSprengel Museum Extension - side view\nSprengel Museum Extension - side view \n  52.3617, 9.741093\n\n\n\n\n9\nFile:Sprengel Museum Extension.jpgSprengel Museum Extension\nSprengel Museum Extension \n  52.361506, 9.740566",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Guide: Architecture Timeline - Sprengel Museum</span>"
     ]
@@ -50,11 +50,21 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Museum Guidebooks: A Citizen Science Experience",
+    "section": "",
+    "text": "Welcome\nThe idea: Museums have a calendar of exhibitions and a catalogue of what is on display in any given show. But this is not published in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘playlists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\n\nA project made the students of the Bachelor of Arts Information Management (BIM) of Hannover University of Applied Sciences and Arts in partnership with Computational Publishing Service from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Idea\nA prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of Applied Sciences and Arts - Seminar: BIM-126-02 Data Science (2025), March - June 2025.\nThe project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.\nAs a basis for the prototype the Computational Publishing Service demo is being used. See: CPS Demo #2\nThe Spengel Museum Hannover will be used as the example museum. See the museum data profile on Wikidata Resonator\nProject inspired by the 1700s database - Corpus Johann Joachim Winckelmanns (1717–1768). Census.de\nThe idea: Museums have a calendar of exhibitions and a catalogue of what is on display in any given show. But this is not published in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show — then their visitors could make ‘playlists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing as a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\nA project made the students of the Bachelor of Arts Information Management (BIM) of Hannover University of Applied Sciences and Arts in partnership with Computational Publishing Service from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)",
+    "text": "Idea\nThe idea: Museums have a calendar of exhibitions and a catalogue of what is on display in any given show. But this is not published in data repositories.\nWelcome to ‘Open Museum’! If museums made deposits of open data of what’s on show — then their visitors could make ‘playlists’ of their favourite works and share them online.\nThe ‘Open Museum’ pitch is that the public take part in this cataloguing as a Citizen Science Experience.\nThe prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).\nA project made the students of the Bachelor of Arts Information Management (BIM) of Hannover University of Applied Sciences and Arts in partnership with Computational Publishing Service from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)",
     "crumbs": [
       "About"
     ]
@@ -144,7 +154,7 @@
     "href": "cs.html",
     "title": "Citizen Science",
     "section": "",
-    "text": "Learning materials\nThe project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.",
+    "text": "Learning materials",
     "crumbs": [
       "Citizen Science"
     ]
@@ -164,7 +174,7 @@
     "href": "data models.html",
     "title": "Data modelling - A step-by-step guide",
     "section": "",
-    "text": "Guiding concepts\nThe data model creation approach is a bottom up approach, followed by a top down view, and concludes with use of schemas. The processes can be used in larger data modelling design processes.\nThe bottom up approach is used for the purpose of simplicity - by focusing on one object and building out with the minimal amount of information. The results can be used on their own or as the start of an exploration of a data set or the selection of schemas etc.\nThis example is made using Wikibase but it can be applied to other tech stacks and contexts.\nThe purpose of the exercise:",
+    "text": "Guiding concepts",
     "crumbs": [
       "Data modelling - A step-by-step guide"
     ]
