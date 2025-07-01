@@ -1,6 +1,199 @@
-# Data Models {.unnumbered}
+# Data modelling - A step-by-step guide {.unnumbered}
 
-## A Guidebook list 
+The data model creation approach is a bottom up approach, followed by a top down view, and concludes with use of schemas. The processes can be used in larger data modelling design processes.
+
+The bottom up approach is used for the purpose of simplicity - by focusing on one object and building out with the minimal amount of information. The results can be used on their own or as the start of an exploration of a data set or the selection of schemas etc.
+
+This example is made using Wikibase but it can be applied to other tech stacks and contexts.
+
+The purpose of the exercise:
+
+1. To create a computer based description of something in the 'real world', and
+2. to communicate the concepts for the data model with the project team and others.
+
+## Guiding concepts
+
+- [**KISS Principle**](https://en.wikipedia.org/wiki/KISS_principle) - Keep it short and simple.
+- **Iterate** - build up in phases: collect data and review the results, '[wash, rinse, repeat](https://en.wikipedia.org/wiki/Lather,_rinse,_repeat)' as the idiom goes.
+- **Start with a narrow, single 'use case' and focus on a start point object.** E.g., in the case of a painting exhibition collection in a museum - make the use case the paintings as they are physically exhibited - make the focus the 'painting' and start from the bottom up.
+- **The process in exploratory** - first you have assumptions and then investigate the data to test the assumptions. Making mistakes or being unaware of technical conditions of a system being used for implementation is OK, this is about learning. Once you have something to work with it can be the data model can be revised.
+
+## Outcomes: Full documentation of a data model
+
+1. Use case - Plain language description
+2. Simple relationship model - Plain language description
+3. Properties table, examples, descriptions, data types, comments
+4. Schematics with visualizations in GraphVis
+5. Relationship to schemas
+6. Log of bottom up and top down analysis
+
+### Notes
+
+- Documentation note: Ensure that any software used has adequate documentation for installation and use, and that you have access to the documentation in the future. This is      necessary to be able to repeat the task in the future. Indicate if software has been tested and works as intended - initial and date tests.
+- Wikdata data types - <https://www.wikidata.org/wiki/Help:Data_type>
+- SQL (Structured Query Language) is the common database technology. Instance of references are known as keys. Foreign key: <https://en.wikipedia.org/wiki/Foreign_key>. MySQL and SQLite (portable) are open-source versions of SQL. Wikibase uses its own type of implementation      of Foreign keys but the concept is very close.
+
+## Step-by-step guide
+
+### Bottom up analysis
+
+The bottom up approach aims at gathering a minimal set of data to start with and focuses on one object and setting to do that. This is the opposite of going from the top down and using preexisting schemas, e.g., Painting, <https://schema.org/Painting>
+
+Complete these steps to create a version of a data model.
+
+With each step conduct a review, test, and sign off. This can be a colleague, peer, or carry out the checks yourself.
+
+An example completed data model is included, see: ***Example data model***
+
+#### Use case
+
+Briefly write out the use case in plain language: What is the purpose of the data model? What is the starting point for the use case?
+
+The use case is looking to make a data model using the following online database Baroque ceiling painting in Germany (CbDD): <https://www.deckenmalerei.eu/>
+
+**Example use case:**
+
+***Exhibition of Baroque paintings in buildings***
+
+> Minimal data structure for Baroque painting as exhibited in buildings. The paintings are frescos, ceiling paintings, and paintings. The buildings are castles, palaces, and other buildings, in the Federal State of Germany.
+>
+> Including the following:
+>
+> - Hold the minimal amount of information to describe the paintings and their exhibition locations.
+> - **The paintings are the focus of the exercise.**
+>   - Describe the the paintings as they exist in castles and palaces in Germany.
+>   - Describe the locations of the castles and palaces and the rooms inside the buildings.
+>   - Describe information about the paintings.
+>   - Describe the art historical records of the paintings and locations\*\*.\*\*
+
+**Review questions:**
+
+1\.     Is the use case narrow enough?
+
+2\.     Is the use case made bottom up - does it have a
+
+**starting point property**?
+
+3\.     Is the use case correctly targetted on the real life situation or context. NB: It can be easy to mistake how data is presented on a website as opposed to how the thing being represented exists IRL, etc.
+
+**Review outcomes:**
+
+1. The focus is the exhibiting of the paintings.
+2. Starting point is the painting.
+3. The real life situation is the exhibition in buildings.
+
+#### Simple relationship model
+
+Write out a hierarchy and 'simple relationship model' description in plain language. Make a description and indented list of properties. Mark the staring point property in the hierarchy.
+
+**Example:**
+
+**A *painting exhibition***
+
+- Federal state 
+  - State 
+    - Palace / Castle 
+      - Building 
+        - Room 
+          - **Painting (starting point property)**
+            - Painting image
+            - Painting text 
+              - Author
+              - Bibliography 
+                - References
+
+**Review questions:**
+
+1\.     Is the starting point identified
+
+2\.     Does the hierarchy have enough properties to support the use case
+
+3\.     Does the hierarchy have to many properties
+
+4\.     In the parent / child indenting correct
+
+**Review outcomes:**
+
+1. Painting (starting point property)
+2. Has enough properties
+3. Not too many properties
+4. Indenting represents the relationships
+
+#### Properties table
+
+List the properties in a table. For the table add: Property; Possible Value(s) - Links to example source if available with description, if no link available add a description of the property; a Wikibase data types, and; comments. Add a table description and version number (see: [semantic version numbering](https://en.wikipedia.org/wiki/Software_versioning)). The purpose of the Properties Table is as a starting place to create the data model as data, for team review, and to develop into a final data model.
+
+Add what you can to the table. The process is exploratory, updates and corrections can be made in the review process.
+
+Using a spreadsheet can be the simplest way to maintain the properties table, but any other table tool will do.
+
+> Note: Wikibase data types: <https://www.wikidata.org/wiki/Help:Data_type>
+
+**ExPropertyample:**
+
+| **Property**       | **Possible Value(s)**                                                                                                                                            | **Data Type** | **Comments**                          |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------------------------------|
+| part of:       | **Die   Embleme** (ist Teil   von: Die Embleme \[Bildzyklus\] → picture cycle) <https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0>                   | string    | This property adds a relationship |
+| Raum           | **Raum** (ist Teil von: Raum \[Raum\] →   room) <https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c>                                                  | string    |                                   |
+| commissioner:  | **Schröder,   Christian Albrecht** (hat   Auftraggeber: Schröder, Christian Albrecht \[Person\]) <https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c> | string    |                                   |
+| Vorlagengeber: | **Bouhours,   Dominique** (hat   Vorlagengeber: Bouhours, Dominique \[Person\]) <https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0>                  | string    |                                   |
+| painter:       | **Günther,   Matthäus** (hat   Maler: Günther, Matthäus \[Person\]) <https://www.deckenmalerei.eu/f65cad80-c7f3-11e9-99f3-c9e55f39fadd>                              | string    |                                   |
+
+**Table:** Properties table: Version 1.0, for a minimal data structure for Baroque paintings exhibited in buildings in the Federal State of Germany. Paintings are the focus object for the data model.
+
+Link to table as spreadsheet: link - to be confirmed
+
+**Review questions:**
+
+- Is there a table description and version number
+- Have all properties been added
+- Possible Value(s): Are links or/and descriptions included
+- Have Wikibase data types been added
+
+**Collect data - round #1:** The objectives here is test assumptions in the simple hierarchy and properties, and to see what other relationships need adding. Working with real data give the first opportunity to see if the properties can stay as ‘simple properties’ or if they need to become objects with their own properties.
+
+Note: Keep in mind the KISS Principles. The data model should be as lean as possible.
+
+Run software and/or prepare data to create a list of properties, e.g., In a Wikibase instance or as CSV file. This will show up some limits or parameters such as: Platform requirements, the use case, and KISS Principles, etc.
+
+A Wikibase Cloud version can be used for free to make an example of a data model. <https://www.wikibase.cloud/>
+
+### Example Data models made in bottom up way
+
+#### Image upload to Wikibase via Wikicommons.
+
+Instructions: [Wikimedia Commons](https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine__wikimedia_commons_/) and [Wikibase](https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/3_importing_data_with_openrefine__wikibase_/).
+
+- Filepath - which where image data is stored
+- Source
+- Copyright
+- Creator
+- Date
+- Description
+- Wikitext
+- Location
+
+## Top down data modelling
+
+# Wikibase: Making a Guide
+
+This is a workflow to create a museum guide based on an Open Linked Data structure utilising Wikidata, Wikimedia Commons, and Wikibase.
+
+The guide and its items are stored in a Wikibase instance. Most of the data used in the items are pulled from Wikimedia Commons. If Wikidata entries exist, they will be linked to the items.
+
+The goal is to make existing data usuable for the museum and the generated information accessible to the public.
+
+## Foundational Assumptions / Ideal World Vision
+
+Open Museum
+
+- All artwork from exhibitions, architecture, and public art is databased with pictures and geolocation on *Wikimedia Commons*
+- Some items have *Wikidata* entries
+- A calendar of exhibitions exists in *Wikidata*
+
+## Guide Object
+
+(= has 9 Guide items)
 
 - **Title / ID (mandatory)**
 - Authors
@@ -20,7 +213,7 @@
 | Location      | *Hanover*                                         | String                                         | optional                                                      |
 | Category      | *Images of Sculptures*                            | String                                         | optional                                                      |
 
-## A guidebook list item
+## Guide Item
 
 (= part of Guide object)
 
@@ -40,15 +233,90 @@
 | Description | *Sculpture by Alice Aycock*                                     | String                 |                                                                                                                           |
 | Wikidata ID | *Q523722* (transforms to *https://www.wikidata.org/wiki/Q523722*) | External identifier    | can be used to get additional information, such as links to Wikipedia. the property has to be set up with a [formatter URL](https://www.wikidata.org/wiki/Property:P1630) |
 
-## An image map
+## Possible Additions
 
-## A timeline
+### Timeline
 
-## A publication
+→ for an overview of architecture
 
-## A publication deposit
+→ take one building (Sprengel museum) and document when its individual buildings were added
 
-## Learning materials
+# WB2JN Use Cases: Baroque Ceiling Paintings
 
-https://tib.eu/cloud/s/nKKnQgHgyLn66Fw#h-data-model-creation-a-step-by-step-guide
+## Priority use cases
 
+1. Painting exhibition catalogues
+   1. Castle or palace
+2. Castle and palace visitor guides
+3. Artists and subject matter guides
+4. Catalogue reporting and dashboarding
+5. Data tree visualisation with GraphVis or other graph visualisation tool
+
+## Low priority: Use case ideas
+
+User created museum guide
+
+Museums map
+
+## 1. Painting exhibition catalogues
+
+> Example prototype: <https://nfdi4culture.github.io/cps-demo-2/>
+
+> sample content: <https://www.deckenmalerei.eu/10885d10-c5b7-11e9-b6fd-d99e1ba53a95>
+
+Painting catalogue can use a number of attributes for deciding what paintings are included in a catalogue. These can be:
+
+- Castle or palace
+- Group of buildings
+- Building
+- Parts of building
+- Building
+- Room sequence
+- Room
+- Painting cycle
+- Painting group (not sure of name)
+- Artists
+- Subject (Iconclass)
+
+### Use case: 1.1 Castle or palace: Painting exhibition catalogue
+
+All paintings in a castle or palace.
+
+Mockup (for illustration purposes):
+
+#### Catalogue sections
+
+- Paintings ordered as 'painting informantion' pages. A painting information page means all information and images related to a painting that is required on one page.
+- Paintings ordered as picture catalogue
+- Paintings ordered as index listing
+
+#### Attributes and text
+
+What attributes and text is need to make the use case?
+
+See spreadsheet: <https://tib.eu/cloud/s/qXn7wkyq57N7kN7>
+
+## General Notes
+
+**Paintings images not clearly marked up by source**
+
+***Note for post project review.*** Some painting image oppotunities are lost as the images are not clearly categorised as being related to a painting. This is because of how they have been databased/catalogued.
+
+E.g.,
+
+ID=3628 URL=<https://www.deckenmalerei.eu/ebf85bc0-c5b7-11e9-b6fd-d99e1ba53a95>
+
+<https://previous.bildindex.de/bilder/fmd10013284a.jpg>
+
+# Data model mapping
+
+- Schemas
+- Wikidata
+- Wiki Commons
+- Other Wikibases
+- Making visible in MediaWiki with categories
+
+# Making data model machine readable
+
+- Markup and enable explort in different formats
+- Version, release, and publish

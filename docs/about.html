@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data models.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Models</span></a>
+ <span class="menu-text">Data modelling - A step-by-step guide</span></a>
   </div>
 </li>
     </ul>
@@ -189,11 +189,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of the Applied Arts and Sciences - Seminar: BIM-126-02 Data Science (2025), March - June 2025.</p>
+<p>The project is to create a system where museum visitors create their own publication guides to museums using linked open data. The project is intended as a citizen science project and for this reason aspects of participation by the public and engagement with scholarship and learning are a priority.</p>
+<p>As a basis for the prototype the Computational Publishing Service demo is being used. See: <a href="https://nfdi4culture.github.io/cps-demo-2/">CPS Demo #2</a></p>
+<p>The Spengel Museum Hannover will be used as the example museum. See the museum data profile on <a href="https://reasonator.toolforge.org/?q=Q510144">Wikidata Resonator</a></p>
+<p>Project inspired by the 1700s database - Corpus <a href="https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann">Johann Joachim Winckelmanns</a> (1717–1768). <a href="https://www.census.de/kooperationen/corpus-winckelmann/">Census.de</a></p>
+<section id="idea" class="level2">
+<h2 class="anchored" data-anchor-id="idea">Idea</h2>
 <p>The idea! Museum have a calendar of exhibitions and a catalogue of what is on display in any give show. But this is not publishing in data repositories.</p>
-<p>Welcome to ‘Open Museum’! If museums made deposits of open data of what’s on show - then their visitors could make ‘play lists’ of their favourite works and share them online.</p>
+<p>Welcome to ‘Open Museum’! If museums made deposits of open data of what’s on show — then their visitors could make ‘play lists’ of their favourite works and share them online.</p>
 <p>The ‘Open Museum’ pitch is that the public take part in this cataloguing and a Citizen Science Experience.</p>
 <p>The prototype ‘Open Museum Guidebooks’ has outlined the idea and is sharing the ‘how to’ model using Wikibase as a foundation. We believe all the infrastructure is already out there and with luck museums back catalogues could be online in no time (famous last words).</p>
-<p>Project inspired by the 1700s database - Corpus <a href="https://en.wikipedia.org/wiki/Johann_Joachim_Winckelmann">Johann Joachim Winckelmanns</a> (1717–1768). <a href="https://www.census.de/kooperationen/corpus-winckelmann/">Census.de</a></p>
+<p>A project made the students of the Bachelor of Arts <a href="https://f3.hs-hannover.de/en/courses/bachelor-studiengaenge/information-management-bim">Information Management (BIM)</a> of Hannover University of the Applied Science and Arts in partnership with <a href="https://nfdi4culture.de/services/details/computational-publishing-service.html">Computational Publishing Service</a> from the Open Science Lab, TIB – Leibniz Information Centre for Science and Technology and University Library, and with NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage, as part of National Research Data Infrastructure (NFDI)</p>
+<p><img src="images/logo-hochschule-hannover-1.png" alt="csm_hs-hannover" width="200"> <img src="images/TIB_Logo_EN_Master_RGB.png" alt="TIB" width="200"> <img src="images/200630_NFDI4Culture.jpg" alt="NFDI4Culture" width="200"></p>
 <ol type="1">
 <li>Use case</li>
 </ol>
@@ -211,20 +219,28 @@ ul.task-list li input[type="checkbox"] {
 <li>Museums can attract more visitors.</li>
 <li>Museums can support deep learning in their respective knowledge domains.</li>
 <li>A permanent record of museums work will be created.</li>
+<li>Contributed to linked open data commons for researchers and the public</li>
 </ul>
 <ol start="3" type="1">
-<li>Persona and storyboard (needs / blocking)</li>
+<li>Personas and storyboarding (user needs / what is blocking the user)</li>
 </ol>
 <ul>
-<li>Musuem visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.</li>
-<li>Musuem exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.</li>
-<li>Special interest group (Climate change education group): Need: Ensure access understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.</li>
+<li>Museum visitor: Needs: The visitor want to share info with friends and family about their favourite artworks. Blocking: The museum has no data feed of exhibition dates or what is being exhibited. If the visitor wanted to share the information it would be a long, long, labour of love.</li>
+<li>Museum exhibition organiser: Needs: Visitors and engagement. Blocking: No exhibition data available for people to find out about contemporary or past exhibitions. The museum should have all this data but is not making it public.</li>
+<li>Special interest group (Climate change education group): Need: Ensure access to understanding of climate change is represented in regional museums. The group would contribute volunteer time to cataloging efforts and outreach. Blocking: Not able to find dates of exhibitions or information about what was exhibited.</li>
 </ul>
 <ol start="4" type="1">
 <li>Problem / solution</li>
 </ol>
-<p>Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don’t publish this data.</p>
-<p>Solution: Support museums visitors to publish and use the data as a citizen science project ‘Open Musuem’. The data is has two parts: A. A calendar of exhibitions, and B. A catalogue of items in an exhibition. Both of these data would be catalogues and indexed using Wikimedia infrastructure.</p>
+<ul>
+<li><p>Problem: A museum visitor cannot share information about exhibitions or the exhited items as museums don’t publish this data.</p></li>
+<li><p>Solution: Support museums visitors to publish and use the data as a citizen science project ‘Open Museum’. The data is has two parts:</p>
+<ol type="a">
+<li>Calendar of exhibitions, and</li>
+<li>Catalogue of items in an exhibition.</li>
+</ol>
+<p>Both of these data would be catalogued and indexed using Wikimedia infrastructure.</p></li>
+</ul>
 <ol start="5" type="1">
 <li>A schematic</li>
 </ol>
@@ -233,13 +249,18 @@ ul.task-list li input[type="checkbox"] {
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
-|    Data            +------------&gt;       The public    +------------&gt;|     Learning      |
+|       Data         +------------&gt;     The public      +------------&gt;|     Learning      |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 |                    |            |                     |             |                   |
 +--------------------+            +---------------------+             +-------------------+
 </pre>
+<hr>
+</section>
+<section id="concept-development" class="level2">
+<h2 class="anchored" data-anchor-id="concept-development">Concept development</h2>
+</section>
 <section id="wikibase---making-a-guide" class="level2">
 <h2 class="anchored" data-anchor-id="wikibase---making-a-guide">Wikibase - Making a Guide</h2>
 <p>This is a workflow to create a museum guide based on an Linked Open Data utilising Wikidata, Wikimedia Commons, Wikibase, and Wikipedia.</p>

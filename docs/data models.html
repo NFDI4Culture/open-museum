@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Models – Open Museum Guidebooks: A Citizen Science Experience</title>
+<title>Data modelling - A step-by-step guide – Open Museum Guidebooks: A Citizen Science Experience</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data models.html">Data Models</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data models.html">Data modelling - A step-by-step guide</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data models.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Data Models</span></a>
+ <span class="menu-text">Data modelling - A step-by-step guide</span></a>
   </div>
 </li>
     </ul>
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Models</h1>
+<h1 class="title">Data modelling - A step-by-step guide</h1>
 </div>
 
 
@@ -188,8 +188,233 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="a-guidebook-list" class="level2">
-<h2 class="anchored" data-anchor-id="a-guidebook-list">A Guidebook list</h2>
+<p>The data model creation approach is a bottom up approach, followed by a top down view, and concludes with use of schemas. The processes can be used in larger data modelling design processes.</p>
+<p>The bottom up approach is used for the purpose of simplicity - by focusing on one object and building out with the minimal amount of information. The results can be used on their own or as the start of an exploration of a data set or the selection of schemas etc.</p>
+<p>This example is made using Wikibase but it can be applied to other tech stacks and contexts.</p>
+<p>The purpose of the exercise:</p>
+<ol type="1">
+<li>To create a computer based description of something in the ‘real world’, and</li>
+<li>to communicate the concepts for the data model with the project team and others.</li>
+</ol>
+<section id="guiding-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="guiding-concepts">Guiding concepts</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/KISS_principle"><strong>KISS Principle</strong></a> - Keep it short and simple.</li>
+<li><strong>Iterate</strong> - build up in phases: collect data and review the results, ‘<a href="https://en.wikipedia.org/wiki/Lather,_rinse,_repeat">wash, rinse, repeat</a>’ as the idiom goes.</li>
+<li><strong>Start with a narrow, single ‘use case’ and focus on a start point object.</strong> E.g., in the case of a painting exhibition collection in a museum - make the use case the paintings as they are physically exhibited - make the focus the ‘painting’ and start from the bottom up.</li>
+<li><strong>The process in exploratory</strong> - first you have assumptions and then investigate the data to test the assumptions. Making mistakes or being unaware of technical conditions of a system being used for implementation is OK, this is about learning. Once you have something to work with it can be the data model can be revised.</li>
+</ul>
+</section>
+<section id="outcomes-full-documentation-of-a-data-model" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes-full-documentation-of-a-data-model">Outcomes: Full documentation of a data model</h2>
+<ol type="1">
+<li>Use case - Plain language description</li>
+<li>Simple relationship model - Plain language description</li>
+<li>Properties table, examples, descriptions, data types, comments</li>
+<li>Schematics with visualizations in GraphVis</li>
+<li>Relationship to schemas</li>
+<li>Log of bottom up and top down analysis</li>
+</ol>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes</h3>
+<ul>
+<li>Documentation note: Ensure that any software used has adequate documentation for installation and use, and that you have access to the documentation in the future. This is necessary to be able to repeat the task in the future. Indicate if software has been tested and works as intended - initial and date tests.</li>
+<li>Wikdata data types - <a href="https://www.wikidata.org/wiki/Help:Data_type" class="uri">https://www.wikidata.org/wiki/Help:Data_type</a></li>
+<li>SQL (Structured Query Language) is the common database technology. Instance of references are known as keys. Foreign key: <a href="https://en.wikipedia.org/wiki/Foreign_key" class="uri">https://en.wikipedia.org/wiki/Foreign_key</a>. MySQL and SQLite (portable) are open-source versions of SQL. Wikibase uses its own type of implementation of Foreign keys but the concept is very close.</li>
+</ul>
+</section>
+</section>
+<section id="step-by-step-guide" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-guide">Step-by-step guide</h2>
+<section id="bottom-up-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="bottom-up-analysis">Bottom up analysis</h3>
+<p>The bottom up approach aims at gathering a minimal set of data to start with and focuses on one object and setting to do that. This is the opposite of going from the top down and using preexisting schemas, e.g., Painting, <a href="https://schema.org/Painting" class="uri">https://schema.org/Painting</a></p>
+<p>Complete these steps to create a version of a data model.</p>
+<p>With each step conduct a review, test, and sign off. This can be a colleague, peer, or carry out the checks yourself.</p>
+<p>An example completed data model is included, see: <strong><em>Example data model</em></strong></p>
+<section id="use-case" class="level4">
+<h4 class="anchored" data-anchor-id="use-case">Use case</h4>
+<p>Briefly write out the use case in plain language: What is the purpose of the data model? What is the starting point for the use case?</p>
+<p>The use case is looking to make a data model using the following online database Baroque ceiling painting in Germany (CbDD): <a href="https://www.deckenmalerei.eu/" class="uri">https://www.deckenmalerei.eu/</a></p>
+<p><strong>Example use case:</strong></p>
+<p><strong><em>Exhibition of Baroque paintings in buildings</em></strong></p>
+<blockquote class="blockquote">
+<p>Minimal data structure for Baroque painting as exhibited in buildings. The paintings are frescos, ceiling paintings, and paintings. The buildings are castles, palaces, and other buildings, in the Federal State of Germany.</p>
+<p>Including the following:</p>
+<ul>
+<li>Hold the minimal amount of information to describe the paintings and their exhibition locations.</li>
+<li><strong>The paintings are the focus of the exercise.</strong>
+<ul>
+<li>Describe the the paintings as they exist in castles and palaces in Germany.</li>
+<li>Describe the locations of the castles and palaces and the rooms inside the buildings.</li>
+<li>Describe information about the paintings.</li>
+<li>Describe the art historical records of the paintings and locations**.**</li>
+</ul></li>
+</ul>
+</blockquote>
+<p><strong>Review questions:</strong></p>
+<p>1. &nbsp;&nbsp;&nbsp; Is the use case narrow enough?</p>
+<p>2. &nbsp;&nbsp;&nbsp; Is the use case made bottom up - does it have a</p>
+<p><strong>starting point property</strong>?</p>
+<p>3. &nbsp;&nbsp;&nbsp; Is the use case correctly targetted on the real life situation or context. NB: It can be easy to mistake how data is presented on a website as opposed to how the thing being represented exists IRL, etc.</p>
+<p><strong>Review outcomes:</strong></p>
+<ol type="1">
+<li>The focus is the exhibiting of the paintings.</li>
+<li>Starting point is the painting.</li>
+<li>The real life situation is the exhibition in buildings.</li>
+</ol>
+</section>
+<section id="simple-relationship-model" class="level4">
+<h4 class="anchored" data-anchor-id="simple-relationship-model">Simple relationship model</h4>
+<p>Write out a hierarchy and ‘simple relationship model’ description in plain language. Make a description and indented list of properties. Mark the staring point property in the hierarchy.</p>
+<p><strong>Example:</strong></p>
+<p><strong>A <em>painting exhibition</em></strong></p>
+<ul>
+<li>Federal state
+<ul>
+<li>State
+<ul>
+<li>Palace / Castle
+<ul>
+<li>Building
+<ul>
+<li>Room
+<ul>
+<li><strong>Painting (starting point property)</strong>
+<ul>
+<li>Painting image</li>
+<li>Painting text
+<ul>
+<li>Author</li>
+<li>Bibliography
+<ul>
+<li>References</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Review questions:</strong></p>
+<p>1. &nbsp;&nbsp;&nbsp; Is the starting point identified</p>
+<p>2. &nbsp;&nbsp;&nbsp; Does the hierarchy have enough properties to support the use case</p>
+<p>3. &nbsp;&nbsp;&nbsp; Does the hierarchy have to many properties</p>
+<p>4. &nbsp;&nbsp;&nbsp; In the parent / child indenting correct</p>
+<p><strong>Review outcomes:</strong></p>
+<ol type="1">
+<li>Painting (starting point property)</li>
+<li>Has enough properties</li>
+<li>Not too many properties</li>
+<li>Indenting represents the relationships</li>
+</ol>
+</section>
+<section id="properties-table" class="level4">
+<h4 class="anchored" data-anchor-id="properties-table">Properties table</h4>
+<p>List the properties in a table. For the table add: Property; Possible Value(s) - Links to example source if available with description, if no link available add a description of the property; a Wikibase data types, and; comments. Add a table description and version number (see: <a href="https://en.wikipedia.org/wiki/Software_versioning">semantic version numbering</a>). The purpose of the Properties Table is as a starting place to create the data model as data, for team review, and to develop into a final data model.</p>
+<p>Add what you can to the table. The process is exploratory, updates and corrections can be made in the review process.</p>
+<p>Using a spreadsheet can be the simplest way to maintain the properties table, but any other table tool will do.</p>
+<blockquote class="blockquote">
+<p>Note: Wikibase data types: <a href="https://www.wikidata.org/wiki/Help:Data_type" class="uri">https://www.wikidata.org/wiki/Help:Data_type</a></p>
+</blockquote>
+<p><strong>ExPropertyample:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Property</strong></th>
+<th><strong>Possible Value(s)</strong></th>
+<th><strong>Data Type</strong></th>
+<th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>part of:</td>
+<td><strong>Die Embleme</strong> (ist Teil von: Die Embleme [Bildzyklus] → picture cycle) <a href="https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0" class="uri">https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0</a></td>
+<td>string</td>
+<td>This property adds a relationship</td>
+</tr>
+<tr class="even">
+<td>Raum</td>
+<td><strong>Raum</strong> (ist Teil von: Raum [Raum] → room) <a href="https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c" class="uri">https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c</a></td>
+<td>string</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>commissioner:</td>
+<td><strong>Schröder, Christian Albrecht</strong> (hat Auftraggeber: Schröder, Christian Albrecht [Person]) <a href="https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c" class="uri">https://www.deckenmalerei.eu/6653845a-e6a4-42a4-8647-147b56890a7c</a></td>
+<td>string</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Vorlagengeber:</td>
+<td><strong>Bouhours, Dominique</strong> (hat Vorlagengeber: Bouhours, Dominique [Person]) <a href="https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0" class="uri">https://www.deckenmalerei.eu/b5b59eba-aca7-4000-a67c-01440cb068c0</a></td>
+<td>string</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>painter:</td>
+<td><strong>Günther, Matthäus</strong> (hat Maler: Günther, Matthäus [Person]) <a href="https://www.deckenmalerei.eu/f65cad80-c7f3-11e9-99f3-c9e55f39fadd" class="uri">https://www.deckenmalerei.eu/f65cad80-c7f3-11e9-99f3-c9e55f39fadd</a></td>
+<td>string</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table:</strong> Properties table: Version 1.0, for a minimal data structure for Baroque paintings exhibited in buildings in the Federal State of Germany. Paintings are the focus object for the data model.</p>
+<p>Link to table as spreadsheet: link - to be confirmed</p>
+<p><strong>Review questions:</strong></p>
+<ul>
+<li>Is there a table description and version number</li>
+<li>Have all properties been added</li>
+<li>Possible Value(s): Are links or/and descriptions included</li>
+<li>Have Wikibase data types been added</li>
+</ul>
+<p><strong>Collect data - round #1:</strong> The objectives here is test assumptions in the simple hierarchy and properties, and to see what other relationships need adding. Working with real data give the first opportunity to see if the properties can stay as ‘simple properties’ or if they need to become objects with their own properties.</p>
+<p>Note: Keep in mind the KISS Principles. The data model should be as lean as possible.</p>
+<p>Run software and/or prepare data to create a list of properties, e.g., In a Wikibase instance or as CSV file. This will show up some limits or parameters such as: Platform requirements, the use case, and KISS Principles, etc.</p>
+<p>A Wikibase Cloud version can be used for free to make an example of a data model. <a href="https://www.wikibase.cloud/" class="uri">https://www.wikibase.cloud/</a></p>
+</section>
+</section>
+<section id="example-data-models-made-in-bottom-up-way" class="level3">
+<h3 class="anchored" data-anchor-id="example-data-models-made-in-bottom-up-way">Example Data models made in bottom up way</h3>
+<section id="image-upload-to-wikibase-via-wikicommons." class="level4">
+<h4 class="anchored" data-anchor-id="image-upload-to-wikibase-via-wikicommons.">Image upload to Wikibase via Wikicommons.</h4>
+<p>Instructions: <a href="https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/2_importing_data_with_openrefine__wikimedia_commons_/">Wikimedia Commons</a> and <a href="https://nfdi4culture.gitlab.io/computational-publishing-service/cps-documentation/guide/3_importing_data_with_openrefine__wikibase_/">Wikibase</a>.</p>
+<ul>
+<li>Filepath - which where image data is stored</li>
+<li>Source</li>
+<li>Copyright</li>
+<li>Creator</li>
+<li>Date</li>
+<li>Description</li>
+<li>Wikitext</li>
+<li>Location</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="top-down-data-modelling" class="level2">
+<h2 class="anchored" data-anchor-id="top-down-data-modelling">Top down data modelling</h2>
+</section>
+<section id="wikibase-making-a-guide" class="level1">
+<h1>Wikibase: Making a Guide</h1>
+<p>This is a workflow to create a museum guide based on an Open Linked Data structure utilising Wikidata, Wikimedia Commons, and Wikibase.</p>
+<p>The guide and its items are stored in a Wikibase instance. Most of the data used in the items are pulled from Wikimedia Commons. If Wikidata entries exist, they will be linked to the items.</p>
+<p>The goal is to make existing data usuable for the museum and the generated information accessible to the public.</p>
+<section id="foundational-assumptions-ideal-world-vision" class="level2">
+<h2 class="anchored" data-anchor-id="foundational-assumptions-ideal-world-vision">Foundational Assumptions / Ideal World Vision</h2>
+<p>Open Museum</p>
+<ul>
+<li>All artwork from exhibitions, architecture, and public art is databased with pictures and geolocation on <em>Wikimedia Commons</em></li>
+<li>Some items have <em>Wikidata</em> entries</li>
+<li>A calendar of exhibitions exists in <em>Wikidata</em></li>
+</ul>
+</section>
+<section id="guide-object" class="level2">
+<h2 class="anchored" data-anchor-id="guide-object">Guide Object</h2>
+<p>(= has 9 Guide items)</p>
 <ul>
 <li><strong>Title / ID (mandatory)</strong></li>
 <li>Authors</li>
@@ -260,8 +485,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="a-guidebook-list-item" class="level2">
-<h2 class="anchored" data-anchor-id="a-guidebook-list-item">A guidebook list item</h2>
+<section id="guide-item" class="level2">
+<h2 class="anchored" data-anchor-id="guide-item">Guide Item</h2>
 <p>(= part of Guide object)</p>
 <ul>
 <li>Title</li>
@@ -314,21 +539,101 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="an-image-map" class="level2">
-<h2 class="anchored" data-anchor-id="an-image-map">An image map</h2>
+<section id="possible-additions" class="level2">
+<h2 class="anchored" data-anchor-id="possible-additions">Possible Additions</h2>
+<section id="timeline" class="level3">
+<h3 class="anchored" data-anchor-id="timeline">Timeline</h3>
+<p>→ for an overview of architecture</p>
+<p>→ take one building (Sprengel museum) and document when its individual buildings were added</p>
 </section>
-<section id="a-timeline" class="level2">
-<h2 class="anchored" data-anchor-id="a-timeline">A timeline</h2>
 </section>
-<section id="a-publication" class="level2">
-<h2 class="anchored" data-anchor-id="a-publication">A publication</h2>
 </section>
-<section id="a-publication-deposit" class="level2">
-<h2 class="anchored" data-anchor-id="a-publication-deposit">A publication deposit</h2>
+<section id="wb2jn-use-cases-baroque-ceiling-paintings" class="level1">
+<h1>WB2JN Use Cases: Baroque Ceiling Paintings</h1>
+<section id="priority-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="priority-use-cases">Priority use cases</h2>
+<ol type="1">
+<li>Painting exhibition catalogues
+<ol type="1">
+<li>Castle or palace</li>
+</ol></li>
+<li>Castle and palace visitor guides</li>
+<li>Artists and subject matter guides</li>
+<li>Catalogue reporting and dashboarding</li>
+<li>Data tree visualisation with GraphVis or other graph visualisation tool</li>
+</ol>
 </section>
-<section id="learning-materials" class="level2">
-<h2 class="anchored" data-anchor-id="learning-materials">Learning materials</h2>
-<p>https://tib.eu/cloud/s/nKKnQgHgyLn66Fw#h-data-model-creation-a-step-by-step-guide</p>
+<section id="low-priority-use-case-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="low-priority-use-case-ideas">Low priority: Use case ideas</h2>
+<p>User created museum guide</p>
+<p>Museums map</p>
+</section>
+<section id="painting-exhibition-catalogues" class="level2">
+<h2 class="anchored" data-anchor-id="painting-exhibition-catalogues">1. Painting exhibition catalogues</h2>
+<blockquote class="blockquote">
+<p>Example prototype: <a href="https://nfdi4culture.github.io/cps-demo-2/" class="uri">https://nfdi4culture.github.io/cps-demo-2/</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>sample content: <a href="https://www.deckenmalerei.eu/10885d10-c5b7-11e9-b6fd-d99e1ba53a95" class="uri">https://www.deckenmalerei.eu/10885d10-c5b7-11e9-b6fd-d99e1ba53a95</a></p>
+</blockquote>
+<p>Painting catalogue can use a number of attributes for deciding what paintings are included in a catalogue. These can be:</p>
+<ul>
+<li>Castle or palace</li>
+<li>Group of buildings</li>
+<li>Building</li>
+<li>Parts of building</li>
+<li>Building</li>
+<li>Room sequence</li>
+<li>Room</li>
+<li>Painting cycle</li>
+<li>Painting group (not sure of name)</li>
+<li>Artists</li>
+<li>Subject (Iconclass)</li>
+</ul>
+<section id="use-case-1.1-castle-or-palace-painting-exhibition-catalogue" class="level3">
+<h3 class="anchored" data-anchor-id="use-case-1.1-castle-or-palace-painting-exhibition-catalogue">Use case: 1.1 Castle or palace: Painting exhibition catalogue</h3>
+<p>All paintings in a castle or palace.</p>
+<p>Mockup (for illustration purposes):</p>
+<section id="catalogue-sections" class="level4">
+<h4 class="anchored" data-anchor-id="catalogue-sections">Catalogue sections</h4>
+<ul>
+<li>Paintings ordered as ‘painting informantion’ pages. A painting information page means all information and images related to a painting that is required on one page.</li>
+<li>Paintings ordered as picture catalogue</li>
+<li>Paintings ordered as index listing</li>
+</ul>
+</section>
+<section id="attributes-and-text" class="level4">
+<h4 class="anchored" data-anchor-id="attributes-and-text">Attributes and text</h4>
+<p>What attributes and text is need to make the use case?</p>
+<p>See spreadsheet: <a href="https://tib.eu/cloud/s/qXn7wkyq57N7kN7" class="uri">https://tib.eu/cloud/s/qXn7wkyq57N7kN7</a></p>
+</section>
+</section>
+</section>
+<section id="general-notes" class="level2">
+<h2 class="anchored" data-anchor-id="general-notes">General Notes</h2>
+<p><strong>Paintings images not clearly marked up by source</strong></p>
+<p><strong><em>Note for post project review.</em></strong> Some painting image oppotunities are lost as the images are not clearly categorised as being related to a painting. This is because of how they have been databased/catalogued.</p>
+<p>E.g.,</p>
+<p>ID=3628 URL=<a href="https://www.deckenmalerei.eu/ebf85bc0-c5b7-11e9-b6fd-d99e1ba53a95" class="uri">https://www.deckenmalerei.eu/ebf85bc0-c5b7-11e9-b6fd-d99e1ba53a95</a></p>
+<p><a href="https://previous.bildindex.de/bilder/fmd10013284a.jpg" class="uri">https://previous.bildindex.de/bilder/fmd10013284a.jpg</a></p>
+</section>
+</section>
+<section id="data-model-mapping" class="level1">
+<h1>Data model mapping</h1>
+<ul>
+<li>Schemas</li>
+<li>Wikidata</li>
+<li>Wiki Commons</li>
+<li>Other Wikibases</li>
+<li>Making visible in MediaWiki with categories</li>
+</ul>
+</section>
+<section id="making-data-model-machine-readable" class="level1">
+<h1>Making data model machine readable</h1>
+<ul>
+<li>Markup and enable explort in different formats</li>
+<li>Version, release, and publish</li>
+</ul>
 
 
 </section>
