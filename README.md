@@ -2,6 +2,8 @@
 
 Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
 
+[Prototype publication](https://nfdi4culture.github.io/open-museum/)
+
 Repo DOI: [![DOI](https://zenodo.org/badge/960476926.svg)](https://doi.org/10.5281/zenodo.15799767)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a3/2-Guide-Architecture-exterior-Sprengel-Museum-%E2%80%93-Open-Museum-Guidebooks-A-Citizen-Science-Experience.png)
