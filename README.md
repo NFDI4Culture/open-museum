@@ -6,6 +6,8 @@ Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen scien
 
 Repo DOI: [![DOI](https://zenodo.org/badge/960476926.svg)](https://doi.org/10.5281/zenodo.15799767)
 
+Presentation slides: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15799977.svg)](https://doi.org/10.5281/zenodo.15799977)
+
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a3/2-Guide-Architecture-exterior-Sprengel-Museum-%E2%80%93-Open-Museum-Guidebooks-A-Citizen-Science-Experience.png)
 
 A prototype project being made with the students of the Bachelor of Arts Information Management, Hannover University of Applied Sciences and Arts - Seminar: BIM-126-02 Data Science (2025), March - June 2025.
