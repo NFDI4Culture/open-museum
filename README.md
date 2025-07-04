@@ -1,6 +1,6 @@
 ## Open Museum Guidebooks: A Citizen Science Experience
 
-Computational Publishing Sevice (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
+Computational Publishing Service (CPS) Proof of Concept Prototype - Citizen science open museum guidebooks. 
 
 [Prototype publication](https://nfdi4culture.github.io/open-museum/)
 
